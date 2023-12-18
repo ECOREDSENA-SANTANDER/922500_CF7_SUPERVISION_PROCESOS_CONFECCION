@@ -38,7 +38,7 @@ Estos son los cambios hechos en la ECORED-BASE-2021
 
 - Agregar numero a la imagen infografiaca e infografiaca-B (numero="1")
 - los botones del slyderA y slyderA quedan abajo (tipo="b")
-- titulo-principal y titulo-segundo de colores
+- titulo-principal y titulo-segundo.color-acento-contenido de colores
 - acordiones agregar clase para estado activo (acordion__activo)
 - espacio para el icono del link de las referencias bibliograficas
 - deshabilitar descargable en local
@@ -207,7 +207,7 @@ Estos son los cambios hechos en la ECORED-BASE-2021
 
 - Mejora de responsive en ImagenInfografica
 - Cambio de textos en botones de la vista inicial
-- Cambio de espaciado en .titulo-principal y .titulo-segundo
+- Cambio de espaciado en .titulo-principal y .titulo-segundo.color-acento-contenido
 - Cambio de todos los tamaños de los headers (h1, h2, h3, h4, h5, h6)
 - Cambio de espaciado de p, ul y ol
 - Mejora de padding en componente AcordionA
