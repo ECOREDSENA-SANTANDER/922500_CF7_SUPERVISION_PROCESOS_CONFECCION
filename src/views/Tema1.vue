@@ -8,7 +8,7 @@
         span 1
       h1 Máquinas y herramientas para confección
 
-    p.mb-5(data-aos='fade-right') Después de las actividades de trazo y corte, se procede a la programación de la producción y esto incluye la programación de las máquinas y las herramientas que se pueden definir como los elementos encargados de ayudar a transformar materias primas cortadas, en unión de los insumos, en productos terminados. Las máquinas de confección se encargan de unir las piezas cortadas por intermedio de agujas e hilos y son acompañadas de accesorios que se requieren para realizar operaciones manuales.
+    p.mb-5(data-aos='fade-right') Después de completar las actividades de trazo y corte, el siguiente paso es la programación de la producción. Esto implica la programación de las máquinas y herramientas, que se encargan de transformar las materias primas cortadas junto con los insumos, en productos terminados. Las máquinas de confección son responsables de unir las piezas cortadas mediante agujas e hilos, y se complementan con accesorios necesarios para llevar a cabo operaciones manuales.
 
     figure.mb-5(data-aos='fade-left')
       img(src='@/assets/curso/tema_1/img_2.png', alt='Texto que describa la imagen')
