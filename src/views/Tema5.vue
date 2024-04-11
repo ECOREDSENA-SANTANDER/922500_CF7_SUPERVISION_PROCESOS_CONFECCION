@@ -11,7 +11,7 @@
     .row.mb-5
       .col-lg-4(data-aos='fade-right')
         figure
-          img.img-a(src='@/assets/curso/tema_5/img_1.png', alt='Texto que describa la imagen')
+          img.img-a(src='@/assets/curso/tema_5/img_1.svg', alt='Texto que describa la imagen')
       .col-lg-8(data-aos='fade-left')
         p Es una herramienta de trabajo empresarial que se fundamenta en vincular el tema del equipo de máquinas y herramientas al plano productivo, relaciona de manera directa el impacto que genera en la producción los paros producidos por máquinas que no funcionan; estos paros significan el desaprovechamiento de la capacidad instalada, por lo que el TPM busca eliminar las causas que originan esos paros y esto se logra por medio de una gestión de mantenimiento efectiva; también se asocian algunos problemas de calidad que se pueden resolver manteniendo un equipo de maquinaria en excelentes condiciones; así mismo, se pueden evitar accidentes de trabajo con una buena administración de los programas de mantenimiento.
 
@@ -55,7 +55,7 @@
       strong Según BSG Institute (2020), toda la implementación de TPM, se debe apoyar en 8 pilares para lograr los objetivos de eliminar o reducir las pérdidas.
 
     .row.justify-content-center(data-aos='fade-left')
-      .col-lg-8
+      .col-lg-12
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
           h5 Figura 25.
           span Los ocho pilares TPM

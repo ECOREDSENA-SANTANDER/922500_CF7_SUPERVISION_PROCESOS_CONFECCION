@@ -276,380 +276,388 @@
     h4(data-aos='fade-left') Tipos de máquinas
     p(data-aos='fade-right') Para la confección de prendas se utiliza una serie de máquinas que a continuación se describen.
 
-    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta_bg_1" data-aos='fade-left')
-      .row.justify-content-center(titulo="1 Máquina plana")
-        .col-lg-12
-          SlyderA
-            .row.justify-content-center
-              .col-lg-10
-                figure
-                  img.img-a(src='@/assets/curso/tema_1/img_19.png', alt='Lanzada')
+      .row.mb-5
+        .col-lg-12.mb-5.mb-md-0
+          LineaTiempoD.color-secundario
+            .row(numero="1" titulo="Máquina plana") 
+              .col-lg-12
+                SlyderA
+                  .row.justify-content-center
+                    .col-lg-10
+                      figure
+                        img.img-a(src='@/assets/curso/tema_1/img_19.png', alt='Lanzada')
 
-            .row.justify-content-center
-              .col-lg-10
-                p.mb-0  
-                  strong Función
-                p Es la máquina m; se usa en tejido plano al igual que en el tejido de punto para realizar unión de telas sencillas, asentar cuellos, mangas, puntadas decorativas. Su función es realizar costuras rectas, entrelazando el hilo superior con el inferior a través de la tela.
-                h5.text-center Tipo de puntada que realiza
-                figure
-                  img.img-a(src='@/assets/curso/tema_1/img_20.png', alt='Lanzada')
+                  .row.justify-content-center
+                    .col-lg-10
+                      p.mb-0  
+                        strong Función
+                      p Es la máquina m; se usa en tejido plano al igual que en el tejido de punto para realizar unión de telas sencillas, asentar cuellos, mangas, puntadas decorativas. Su función es realizar costuras rectas, entrelazando el hilo superior con el inferior a través de la tela.
+                      h5.text-center Tipo de puntada que realiza
+                      figure
+                        img.img-a(src='@/assets/curso/tema_1/img_20.png', alt='Lanzada')
 
-            .row.justify-content-center
-              .col-lg-10
-                h4 Partes de la máquina plana
-                .row
-                  .col-lg-6
-                    
-                    figure
-                      img(src='@/assets/curso/tema_1/img_21.png', alt='Lanzada')
-                  .col-lg-6
-                    ol.lista-ol--color
-                      li 
-                        span.text-bold.bg_num 1. 
-                        | #[strong Cabezote]
-                        p Reguladora de puntada, caja de bobina, palanca de retroceso, dientes, gancho rotatorio, palanca tira hilos, volante, agujas, porta conos, guía de hilos, pie prensatela, barra de aguja, medidor de lubricación. 
-                      li 
-                        span.text-bold.bg_num 2. 
-                        | #[strong Mueble]
-                        p Es el lugar donde se instala  el cabezote y el apoyo para la persona que cumple la tarea de coser. Está integrado por el pedal, el estante, el motor, varilla del embrague.
+                  .row.justify-content-center
+                    .col-lg-10
+                      h4 Partes de la máquina plana
+                      .row
+                        .col-lg-6
+                          
+                          figure
+                            img(src='@/assets/curso/tema_1/img_21.png', alt='Lanzada')
+                        .col-lg-6
+                          ol.lista-ol--color
+                            li 
+                              span.text-bold.bg_num 1. 
+                              | #[strong Cabezote]
+                              p Reguladora de puntada, caja de bobina, palanca de retroceso, dientes, gancho rotatorio, palanca tira hilos, volante, agujas, porta conos, guía de hilos, pie prensatela, barra de aguja, medidor de lubricación. 
+                            li 
+                              span.text-bold.bg_num 2. 
+                              | #[strong Mueble]
+                              p Es el lugar donde se instala  el cabezote y el apoyo para la persona que cumple la tarea de coser. Está integrado por el pedal, el estante, el motor, varilla del embrague.
+                  .row.justify-content-center
+                    .col-lg-10
+                      h5.text-center.mb-5 Partes internas de la máquina plana
+                      .row
+                        .col-lg-6
+                          figure
+                            img(src='@/assets/curso/tema_1/img_22.png', alt='Lanzada')
+                        .col-lg-6
+                          .jumbo_1.p-4.bg-white
+                            ol.lista-ol--color
+                              li 
+                                span.text-bold.bg_num 1. 
+                                | Mecanismo del movimiento de la aguja y del tirahilos.
+                              li 
+                                span.text-bold.bg_num 2. 
+                                | Tirahilos.
+                              li 
+                                span.text-bold.bg_num 3. 
+                                | Bobina superior del hilo.
+                              li 
+                                span.text-bold.bg_num 4. 
+                                | Tensor.
+                              li 
+                                span.text-bold.bg_num 5. 
+                                | Cigüeñal.
+                              li 
+                                span.text-bold.bg_num 6. 
+                                | Volante polea.
+                              li 
+                                span.text-bold.bg_num 7. 
+                                | Bielas.
+                              li 
+                                span.text-bold.bg_num 8. 
+                                | Correa.
+                              li 
+                                span.text-bold.bg_num 9. 
+                                | Mecanismo para el movimiento vertical del arrastratelas.
+                              li 
+                                span.text-bold.bg_num 10. 
+                                | Mecanismo para el movimiento horizontal del arrastratelas.
+                              li 
+                                span.text-bold.bg_num 11. 
+                                | Aguja.
+                              li 
+                                span.text-bold.bg_num 12. 
+                                | Arrastratelas.
+                              li 
+                                span.text-bold.bg_num 13. 
+                                | Lanzadera y bobina inferior.
+                              li 
+                                span.text-bold.bg_num 14. 
+                                | Prensatelas.
+                              li 
+                                span.text-bold.bg_num 15. 
+                                | Palanca del prensatelas.
+        
+            .row(numero="2" titulo="Máquina fileteadora")
+              .col-lg-12
+                SlyderA
+                  .row.justify-content-center
+                    .col-lg-10
+                      figure
+                        img.img-a(src='@/assets/curso/tema_1/img_23.png', alt='Lanzada')
+            
+                  .row.justify-content-center
+                    .col-lg-10
+                      p.mb-0  
+                        strong Función
+                      p Es una máquina muy usada porque realiza tres pasos al mismo tiempo: recorta, cose y sobrehíla. Su función es entrelazar un hilo y dos hilazas generando un filete en el borde del tejido. Dependiendo de la puntada, existen de 3, 4 y 5 hilos.
+                      h5.text-center Tipo de puntada que realiza
+                      figure
+                        img.img-a(src='@/assets/curso/tema_1/img_24.png', alt='Lanzada')
 
-            .row.justify-content-center
-              .col-lg-10
-                h5.text-center.mb-5 Partes internas de la máquina plana
-                .row
-                  .col-lg-6
-                    figure
-                      img(src='@/assets/curso/tema_1/img_22.png', alt='Lanzada')
-                  .col-lg-6
-                    .jumbo_1.p-4.bg-white
-                      ol.lista-ol--color
-                        li 
-                          span.text-bold.bg_num 1. 
-                          | Mecanismo del movimiento de la aguja y del tirahilos.
-                        li 
-                          span.text-bold.bg_num 2. 
-                          | Tirahilos.
-                        li 
-                          span.text-bold.bg_num 3. 
-                          | Bobina superior del hilo.
-                        li 
-                          span.text-bold.bg_num 4. 
-                          | Tensor.
-                        li 
-                          span.text-bold.bg_num 5. 
-                          | Cigüeñal.
-                        li 
-                          span.text-bold.bg_num 6. 
-                          | Volante polea.
-                        li 
-                          span.text-bold.bg_num 7. 
-                          | Bielas.
-                        li 
-                          span.text-bold.bg_num 8. 
-                          | Correa.
-                        li 
-                          span.text-bold.bg_num 9. 
-                          | Mecanismo para el movimiento vertical del arrastratelas.
-                        li 
-                          span.text-bold.bg_num 10. 
-                          | Mecanismo para el movimiento horizontal del arrastratelas.
-                        li 
-                          span.text-bold.bg_num 11. 
-                          | Aguja.
-                        li 
-                          span.text-bold.bg_num 12. 
-                          | Arrastratelas.
-                        li 
-                          span.text-bold.bg_num 13. 
-                          | Lanzadera y bobina inferior.
-                        li 
-                          span.text-bold.bg_num 14. 
-                          | Prensatelas.
-                        li 
-                          span.text-bold.bg_num 15. 
-                          | Palanca del prensatelas.
-      .row.justify-content-center(titulo="2 Máquina fileteadora")
-        .col-lg-12
-          SlyderA
-            .row.justify-content-center
-              .col-lg-10
-                figure
-                  img.img-a(src='@/assets/curso/tema_1/img_23.png', alt='Lanzada')
-    
-            .row.justify-content-center
-              .col-lg-10
-                p.mb-0  
-                  strong Función
-                p Es una máquina muy usada porque realiza tres pasos al mismo tiempo: recorta, cose y sobrehíla. Su función es entrelazar un hilo y dos hilazas generando un filete en el borde del tejido. Dependiendo de la puntada, existen de 3, 4 y 5 hilos.
-                h5.text-center Tipo de puntada que realiza
-                figure
-                  img.img-a(src='@/assets/curso/tema_1/img_24.png', alt='Lanzada')
+                  .row.justify-content-center
+                    .col-lg-10
+                      h5.text-center.mb-5 Partes de la máquina fileteadora
+                      .row
+                        .col-lg-6
+                          figure
+                            img(src='@/assets/curso/tema_1/img_25.png', alt='Lanzada')
+                        .col-lg-6
+                          .jumbo_1.p-4.bg-white
+                            ol.lista-ol--color
+                              li 
+                                span.text-bold.bg_num 1. 
+                                | Tornillo de presión.
+                              li 
+                                span.text-bold.bg_num 2. 
+                                | Tapa frontal.
+                              li 
+                                span.text-bold.bg_num 3. 
+                                | Guía de hilo.
+                              li 
+                                span.text-bold.bg_num 4. 
+                                | Conjunto tensor
+                              li 
+                                span.text-bold.bg_num 5. 
+                                | Volante.
+                              li 
+                                span.text-bold.bg_num 6. 
+                                | Ventanilla de flujo de aceite o visor.
+                              li 
+                                span.text-bold.bg_num 7. 
+                                | Tapa frontal.
+                              li 
+                                span.text-bold.bg_num 8. 
+                                | Cuchilla superior.
+                              li 
+                                span.text-bold.bg_num 9. 
+                                | Cubierta del brazo.
+                              li 
+                                span.text-bold.bg_num 10. 
+                                | Palanca de anchura de las puntadas.
+                              li 
+                                span.text-bold.bg_num 11. 
+                                | Palanca de cuchilla.
+                              li 
+                                span.text-bold.bg_num 12. 
+                                | Disco de ajuste del largo de las puntadas.
+                              li 
+                                span.text-bold.bg_num 13. 
+                                | Palanca de ajuste velocidad de alimentación.
+                              li 
+                                span.text-bold.bg_num 14. 
+                                | Prensatelas.
+                              li 
+                                span.text-bold.bg_num 15. 
+                                | Agujas.
+                              li 
+                                span.text-bold.bg_num 16. 
+                                | Tapa de toma de hilo.
+                              li 
+                                span.text-bold.bg_num 17. 
+                                | Porta cono
+            .row(numero="3" titulo="Máquina empretinadora")
+              .col-lg-12
+                SlyderA
+                  .row.justify-content-center
+                    .col-lg-10
+                      figure
+                        img.img-a(src='@/assets/curso/tema_1/img_26.png', alt='Lanzada')
+                  .row.justify-content-center
+                    .col-lg-10
+                      p.mb-0  
+                        strong Función
+                      p Estas máquinas se utilizan principalmente para unir la tela y las piezas que conforman la pretina o cinturillas de la falda y pantalón. Es utilizada en pantalones y faldas de dril y de denim.
+                      h5.text-center Tipo de puntada que realiza
+                      figure
+                        img.img-a(src='@/assets/curso/tema_1/img_27.png', alt='Lanzada')
+                  .row.justify-content-center
+                    .col-lg-10
+                      h5.text-center.mb-5 Partes de la máquina empretinadora
+                      .row.align-items-center
+                        .col-lg-6
+                          figure
+                            img(src='@/assets/curso/tema_1/img_28.png', alt='Lanzada')
+                        .col-lg-6
+                          .jumbo_1.p-4.bg-white
+                            ol.lista-ol--color
+                              li 
+                                span.text-bold.bg_num 1. 
+                                | Presión de prensatela.
+                              li 
+                                span.text-bold.bg_num 2. 
+                                | Tensores de hilo.
+                              li 
+                                span.text-bold.bg_num 3. 
+                                | Volante.
+                              li 
+                                span.text-bold.bg_num 4. 
+                                | Transporte de dientes.
+            .row(numero="4" titulo="Máquina presilladora")
+              .col-lg-12
+                SlyderA
+                  .row.justify-content-center
+                    .col-lg-10
+                      figure
+                        img.img-a(src='@/assets/curso/tema_1/img_29.png', alt='Lanzada')
+                  .row.justify-content-center
+                    .col-lg-10
+                      p.mb-0  
+                        strong Función
+                      p Estas máquinas se utilizan en tejido plano y de punto, su función es asegurar o reforzar costuras, presillar bolsillos, trabas, botas y pegar pasadores. En ocasiones se usa con fines decorativos.
+                      h5.text-center Tipo de puntada que realiza
+                      figure
+                        img.img-a(src='@/assets/curso/tema_1/img_30.png', alt='Lanzada')
+                  .row.justify-content-center
+                    .col-lg-10
+                      h5.text-center.mb-5 Partes de la máquina presilladora
+                      .row.align-items-center
+                        .col-lg-6
+                          figure
+                            img(src='@/assets/curso/tema_1/img_31.png', alt='Lanzada')
+                        .col-lg-6
+                          .jumbo_1.p-4.bg-white
+                            ol.lista-ol--color
+                              li 
+                                span.text-bold.bg_num 1. 
+                                | Guía hilo.
+                              li 
+                                span.text-bold.bg_num 2. 
+                                | Devanador.
+                              li 
+                                span.text-bold.bg_num 3. 
+                                | Volante.
+                              li 
+                                span.text-bold.bg_num 4. 
+                                | Visor de aceite.
+                              li 
+                                span.text-bold.bg_num 5. 
+                                | Gancho o garfio.
+                              li 
+                                span.text-bold.bg_num 6. 
+                                | Cama en forma de codo.
+                              li 
+                                span.text-bold.bg_num 7. 
+                                | Prensatela.
+                              li 
+                                span.text-bold.bg_num 8. 
+                                | Barra prensatelas.
+                              li 
+                                span.text-bold.bg_num 9. 
+                                | Tensor de hilo.
+                              li 
+                                span.text-bold.bg_num 10. 
+                                | Tira hilo.
+            .row(numero="5" titulo="Máquina recubridora")
+              .col-lg-12
+                SlyderA
+                  .row.justify-content-center
+                    .col-lg-10
+                      figure
+                        img.img-a(src='@/assets/curso/tema_1/img_32.png', alt='Lanzada')
+                  .row.justify-content-center
+                    .col-lg-10
+                      p.mb-0  
+                        strong Función
+                      p Realiza la puntada overlock, la cual se utiliza para sobre orillados o adornos y puede considerarse una costura. El término en inglés es “Cover Stitch”, que significa recubridora. Su uso más frecuente se da en prendas fabricadas con tejido de punto, como blusas, camisetas y pantalonetas.
+                      h5.text-center Tipo de puntada que realiza
+                      figure
+                        img.img-a(src='@/assets/curso/tema_1/img_33.png', alt='Lanzada')
+                  .row.justify-content-center
+                    .col-lg-10
+                      h5.text-center.mb-5 Partes de la máquina recubridora
+                      .row.align-items-center
+                        .col-lg-6
+                          figure
+                            img(src='@/assets/curso/tema_1/img_34.png', alt='Lanzada')
+                        .col-lg-6
+                          .jumbo_1.p-4.bg-white
+                            ol.lista-ol--color
+                              li 
+                                span.text-bold.bg_num 1. 
+                                | Tensor.
+                              li 
+                                span.text-bold.bg_num 2. 
+                                | Disco selector de puntadas.
+                              li 
+                                span.text-bold.bg_num 3. 
+                                | Disco selector largo puntada.
+                              li 
+                                span.text-bold.bg_num 4. 
+                                | Portahilos.
+                              li 
+                                span.text-bold.bg_num 5. 
+                                | Freno devanador.
+                              li 
+                                span.text-bold.bg_num 6. 
+                                | Volante.
+                              li 
+                                span.text-bold.bg_num 7. 
+                                | Exhibidor de puntadas.
+                              li 
+                                span.text-bold.bg_num 8. 
+                                | Tecla de retroceso.
+                              li 
+                                span.text-bold.bg_num 9. 
+                                | Cajón accesorios.
+                              li 
+                                span.text-bold.bg_num 10. 
+                                | Placa de aguja.
+                              li 
+                                span.text-bold.bg_num 11. 
+                                | Pie prensatelas.
+                              li 
+                                span.text-bold.bg_num 12. 
+                                | Tapa frontal.
+                              li 
+                                span.text-bold.bg_num 13. 
+                                | Dial de tensión.
+                              li 
+                                span.text-bold.bg_num 14. 
+                                | Tirahilos.
+            .row(numero="6" titulo="Máquina ojaladora")
+              .col-lg-12
+                SlyderA
+                  .row.justify-content-center
+                    .col-lg-10
+                      figure
+                        img.img-a(src='@/assets/curso/tema_1/img_35.png', alt='Lanzada')
+                  .row.justify-content-center
+                    .col-lg-10
+                      p.mb-0  
+                        strong Función
+                      p Es sumamente importante, para programar las máquinas y antes de operarlas, consultar de manera minuciosa las fichas técnicas y demás documentos relacionados con el equipo. Es esencial que estos documentos estén bien custodiados y archivados para evitar extravíos, y que cada vez que sea necesario consultarlos, se pueda hacer de manera rápida y efectiva. Además, la información contenida en las fichas técnicas es de gran utilidad cada vez que se requiere un repuesto para la máquina.
+                      h5.text-center Tipo de puntada que realiza
+                      figure
+                        img.img-a(src='@/assets/curso/tema_1/img_36.png', alt='Lanzada')
+                  .row.justify-content-center
+                    .col-lg-10
+                      h5.text-center.mb-5 Partes de la máquina ojaladora
+                      .row.align-items-center
+                        .col-lg-6
+                          figure
+                            img(src='@/assets/curso/tema_1/img_37.png', alt='Lanzada')
+                        .col-lg-6
+                          .jumbo_1.p-4.bg-white
+                            ol.lista-ol--color
+                              li 
+                                span.text-bold.bg_num 1. 
+                                | Tornillo regulador de presión.
+                              li 
+                                span.text-bold.bg_num 2. 
+                                | Cubierta de bandas.
+                              li 
+                                span.text-bold.bg_num 3. 
+                                | Mecanismo de tensión.
+                              li 
+                                span.text-bold.bg_num 4. 
+                                | Prensatelas.
+                              li 
+                                span.text-bold.bg_num 5. 
+                                | Barra de aguja.
+                              li 
+                                span.text-bold.bg_num 6. 
+                                | Palanca tirahilo.
+        
+            
+              
+            
+        
+     
 
-            .row.justify-content-center
-              .col-lg-10
-                h5.text-center.mb-5 Partes de la máquina fileteadora
-                .row
-                  .col-lg-6
-                    figure
-                      img(src='@/assets/curso/tema_1/img_25.png', alt='Lanzada')
-                  .col-lg-6
-                    .jumbo_1.p-4.bg-white
-                      ol.lista-ol--color
-                        li 
-                          span.text-bold.bg_num 1. 
-                          | Tornillo de presión.
-                        li 
-                          span.text-bold.bg_num 2. 
-                          | Tapa frontal.
-                        li 
-                          span.text-bold.bg_num 3. 
-                          | Guía de hilo.
-                        li 
-                          span.text-bold.bg_num 4. 
-                          | Conjunto tensor
-                        li 
-                          span.text-bold.bg_num 5. 
-                          | Volante.
-                        li 
-                          span.text-bold.bg_num 6. 
-                          | Ventanilla de flujo de aceite o visor.
-                        li 
-                          span.text-bold.bg_num 7. 
-                          | Tapa frontal.
-                        li 
-                          span.text-bold.bg_num 8. 
-                          | Cuchilla superior.
-                        li 
-                          span.text-bold.bg_num 9. 
-                          | Cubierta del brazo.
-                        li 
-                          span.text-bold.bg_num 10. 
-                          | Palanca de anchura de las puntadas.
-                        li 
-                          span.text-bold.bg_num 11. 
-                          | Palanca de cuchilla.
-                        li 
-                          span.text-bold.bg_num 12. 
-                          | Disco de ajuste del largo de las puntadas.
-                        li 
-                          span.text-bold.bg_num 13. 
-                          | Palanca de ajuste velocidad de alimentación.
-                        li 
-                          span.text-bold.bg_num 14. 
-                          | Prensatelas.
-                        li 
-                          span.text-bold.bg_num 15. 
-                          | Agujas.
-                        li 
-                          span.text-bold.bg_num 16. 
-                          | Tapa de toma de hilo.
-                        li 
-                          span.text-bold.bg_num 17. 
-                          | Porta cono
-      .row.justify-content-center(titulo="3 Máquina empretinadora")
-        .col-lg-12
-          SlyderA
-            .row.justify-content-center
-              .col-lg-10
-                figure
-                  img.img-a(src='@/assets/curso/tema_1/img_26.png', alt='Lanzada')
-            .row.justify-content-center
-              .col-lg-10
-                p.mb-0  
-                  strong Función
-                p Estas máquinas se utilizan principalmente para unir la tela y las piezas que conforman la pretina o cinturillas de la falda y pantalón. Es utilizada en pantalones y faldas de dril y de denim.
-                h5.text-center Tipo de puntada que realiza
-                figure
-                  img.img-a(src='@/assets/curso/tema_1/img_27.png', alt='Lanzada')
-            .row.justify-content-center
-              .col-lg-10
-                h5.text-center.mb-5 Partes de la máquina empretinadora
-                .row.align-items-center
-                  .col-lg-6
-                    figure
-                      img(src='@/assets/curso/tema_1/img_28.png', alt='Lanzada')
-                  .col-lg-6
-                    .jumbo_1.p-4.bg-white
-                      ol.lista-ol--color
-                        li 
-                          span.text-bold.bg_num 1. 
-                          | Presión de prensatela.
-                        li 
-                          span.text-bold.bg_num 2. 
-                          | Tensores de hilo.
-                        li 
-                          span.text-bold.bg_num 3. 
-                          | Volante.
-                        li 
-                          span.text-bold.bg_num 4. 
-                          | Transporte de dientes.
-      .row.justify-content-center(titulo="4 Máquina presilladora")
-        .col-lg-12
-          SlyderA
-            .row.justify-content-center
-              .col-lg-10
-                figure
-                  img.img-a(src='@/assets/curso/tema_1/img_29.png', alt='Lanzada')
-            .row.justify-content-center
-              .col-lg-10
-                p.mb-0  
-                  strong Función
-                p Estas máquinas se utilizan en tejido plano y de punto, su función es asegurar o reforzar costuras, presillar bolsillos, trabas, botas y pegar pasadores. En ocasiones se usa con fines decorativos.
-                h5.text-center Tipo de puntada que realiza
-                figure
-                  img.img-a(src='@/assets/curso/tema_1/img_30.png', alt='Lanzada')
-            .row.justify-content-center
-              .col-lg-10
-                h5.text-center.mb-5 Partes de la máquina presilladora
-                .row.align-items-center
-                  .col-lg-6
-                    figure
-                      img(src='@/assets/curso/tema_1/img_31.png', alt='Lanzada')
-                  .col-lg-6
-                    .jumbo_1.p-4.bg-white
-                      ol.lista-ol--color
-                        li 
-                          span.text-bold.bg_num 1. 
-                          | Guía hilo.
-                        li 
-                          span.text-bold.bg_num 2. 
-                          | Devanador.
-                        li 
-                          span.text-bold.bg_num 3. 
-                          | Volante.
-                        li 
-                          span.text-bold.bg_num 4. 
-                          | Visor de aceite.
-                        li 
-                          span.text-bold.bg_num 5. 
-                          | Gancho o garfio.
-                        li 
-                          span.text-bold.bg_num 6. 
-                          | Cama en forma de codo.
-                        li 
-                          span.text-bold.bg_num 7. 
-                          | Prensatela.
-                        li 
-                          span.text-bold.bg_num 8. 
-                          | Barra prensatelas.
-                        li 
-                          span.text-bold.bg_num 9. 
-                          | Tensor de hilo.
-                        li 
-                          span.text-bold.bg_num 10. 
-                          | Tira hilo.
-      .row.justify-content-center(titulo="5 Máquina recubridora")
-        .col-lg-12
-          SlyderA
-            .row.justify-content-center
-              .col-lg-10
-                figure
-                  img.img-a(src='@/assets/curso/tema_1/img_32.png', alt='Lanzada')
-            .row.justify-content-center
-              .col-lg-10
-                p.mb-0  
-                  strong Función
-                p Realiza puntada #[i overlock], es decir una puntada utilizada para sobre orillados o adornos que se podría considerar una costura; el término en inglés es #[i Cover Stitch] que significa recubridora. Su uso más frecuente es en prendas fabricadas con tejido de punto como blusas, camisetas, pantalonetas.
-                h5.text-center Tipo de puntada que realiza
-                figure
-                  img.img-a(src='@/assets/curso/tema_1/img_33.png', alt='Lanzada')
-            .row.justify-content-center
-              .col-lg-10
-                h5.text-center.mb-5 Partes de la máquina recubridora
-                .row.align-items-center
-                  .col-lg-6
-                    figure
-                      img(src='@/assets/curso/tema_1/img_34.png', alt='Lanzada')
-                  .col-lg-6
-                    .jumbo_1.p-4.bg-white
-                      ol.lista-ol--color
-                        li 
-                          span.text-bold.bg_num 1. 
-                          | Tensor.
-                        li 
-                          span.text-bold.bg_num 2. 
-                          | Disco selector de puntadas.
-                        li 
-                          span.text-bold.bg_num 3. 
-                          | Disco selector largo puntada.
-                        li 
-                          span.text-bold.bg_num 4. 
-                          | Portahilos.
-                        li 
-                          span.text-bold.bg_num 5. 
-                          | Freno devanador.
-                        li 
-                          span.text-bold.bg_num 6. 
-                          | Volante.
-                        li 
-                          span.text-bold.bg_num 7. 
-                          | Exhibidor de puntadas.
-                        li 
-                          span.text-bold.bg_num 8. 
-                          | Tecla de retroceso.
-                        li 
-                          span.text-bold.bg_num 9. 
-                          | Cajón accesorios.
-                        li 
-                          span.text-bold.bg_num 10. 
-                          | Placa de aguja.
-                        li 
-                          span.text-bold.bg_num 11. 
-                          | Pie prensatelas.
-                        li 
-                          span.text-bold.bg_num 12. 
-                          | Tapa frontal.
-                        li 
-                          span.text-bold.bg_num 13. 
-                          | Dial de tensión.
-                        li 
-                          span.text-bold.bg_num 14. 
-                          | Tirahilos.
-      .row.justify-content-center(titulo="6 Máquina ojaladora")
-        .col-lg-12
-          SlyderA
-            .row.justify-content-center
-              .col-lg-10
-                figure
-                  img.img-a(src='@/assets/curso/tema_1/img_35.png', alt='Lanzada')
-            .row.justify-content-center
-              .col-lg-10
-                p.mb-0  
-                  strong Función
-                p Diseño de ojales de variedad de formas y tamaños. Al terminar la secuencia de formación cae una cuchilla que, en forma automática, realiza la abertura para el botón.
-                h5.text-center Tipo de puntada que realiza
-                figure
-                  img.img-a(src='@/assets/curso/tema_1/img_36.png', alt='Lanzada')
-            .row.justify-content-center
-              .col-lg-10
-                h5.text-center.mb-5 Partes de la máquina ojaladora
-                .row.align-items-center
-                  .col-lg-6
-                    figure
-                      img(src='@/assets/curso/tema_1/img_37.png', alt='Lanzada')
-                  .col-lg-6
-                    .jumbo_1.p-4.bg-white
-                      ol.lista-ol--color
-                        li 
-                          span.text-bold.bg_num 1. 
-                          | Tornillo regulador de presión.
-                        li 
-                          span.text-bold.bg_num 2. 
-                          | Cubierta de bandas.
-                        li 
-                          span.text-bold.bg_num 3. 
-                          | Mecanismo de tensión.
-                        li 
-                          span.text-bold.bg_num 4. 
-                          | Prensatelas.
-                        li 
-                          span.text-bold.bg_num 5. 
-                          | Barra de aguja.
-                        li 
-                          span.text-bold.bg_num 6. 
-                          | Palanca tirahilo.
-
-    h5(data-aos='fade-left') Fichas técnicas de las máquinas
+    h3(data-aos='fade-left') Fichas técnicas de las máquinas
 
     p(data-aos='fade-right') Es un documento que permite la comunicación entre el proveedor que entrega las máquinas y herramientas con el maquilador de piezas cortadas. En este documento vienen consignadas todas las especificaciones y características de los equipos; así como la identificación de las partes, los cuidados, los sistemas de lubricación, las maneras de enhebrado, las referencias y toda la información que sea pertinente para su manejo.
 
@@ -664,12 +672,12 @@
           img(src='@/assets/curso/tema_1/img_38.png', alt='Texto que describa la imagen')
           figcaption Nota. Tomada de Confecciones Badaam Ltda. (2020)
 
-    h5(data-aos='fade-left') Fichas técnicas de seguimiento y mantenimiento de las máquinas
+    h3(data-aos='fade-left') Fichas técnicas de seguimiento y mantenimiento de las máquinas
     p(data-aos='fade-right') No se debe confundir este documento con la ficha técnica que trae la máquina cuando se adquiere, este documento contiene la información sobre las intervenciones que ha tenido la máquina, las fechas en que se han reparado o cambiado repuestos, así como los proveedores de servicios o productos que ha necesitado. La información contenida en este documento permite tomar las mejores decisiones cuando de mantenimiento del equipo de máquinas y herramientas se trata.
 
     p(data-aos='fade-right') Debe, por lo menos, traer información completa de la máquina en donde se incluyan sus características, la sección o área a que pertenece, el tipo de mantenimiento que se le realiza, la urgencia de la intervención, la descripción del servicio, las fechas, las personas responsables de solicitar, autorizar y revisar el servicio, entre otros aspectos.
 
-    h5.mb-5(data-aos='fade-right') A continuación, se muestra un ejemplo de un documento similar.
+    h4.mb-5(data-aos='fade-right') A continuación, se muestra un ejemplo de un documento similar.
 
     .row.justify-content-center(data-aos='fade-left')
       .col-lg-11
@@ -787,16 +795,16 @@
                 th Ejecutó
                 th(colspan=3) Revisó
                 th(colspan=2) Observaciones
-    h5(data-aos='fade-left') Tecnologías implementadas en las máquinas
+    h4(data-aos='fade-left') Tecnologías implementadas en las máquinas
     p.mb-0(data-aos='fade-right') A través del tiempo las máquinas herramientas, al igual que las metodologías de trabajo, han venido teniendo cambios orientados a hacer las cosas más rápido (productividad), y con mejor cumplimiento de especificaciones (calidad). Con la implementación de dispositivos electrónicos, se obviaron pasos en las órdenes, movimientos y relación de velocidades, de tal manera que al año 2021 la industria de la confección está dotada de equipos autómatas, algunos puestos de trabajo los atienden robots, y existen #[i softwares] que han integrado varias operaciones.
     p.mb-5(data-aos='fade-right') De manera funcional y elemental, a continuación, se muestra la relación entre tecnologías.
 
     .row.justify-content-center(data-aos='fade-left')
       .col-lg-11
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-          h5 Tabla 3.
+          h4 Tabla 3.
           span  Tecnologías implementadas en las máquinas 
-        .tabla-a.color-acento-contenido.mb-5 
+        .tabla-a.mb-5
           table
             thead
               tr
@@ -808,15 +816,15 @@
                   h4 Electrónica o posesionadora
             tbody
               tr 
-                th.th_bg2 Rematar la costura.
+                th Rematar la costura.
                 td Se hace desde un elemento que se encuentra al lado derecho de la máquina, llamado rematador.
                 td Se realiza desde el pedal de la máquina. Se ahorra el tiempo de desplazamiento de la mano hasta el rematador.
               tr 
-                th.th_bg2 Cortar el hilo después de terminar la operación.
+                th Cortar el hilo después de terminar la operación.
                 td Se realiza de manera manual con un pulidor, o se le coloca detrás del pie prensatelas una cuchilla que haga esa función.
                 td Desde el pedal se activa un mecanismo que corta el hilo a ras de la planchuela y la costura. El gasto de hilo es menor, y el tiempo de pulida también, sin contar el ahorro del tiempo cuando se realiza manualmente.
               tr 
-                th.th_bg2 Levantar el pie prensatela.
+                th Levantar el pie prensatela.
                 td.th En la relación operario-máquina, al estar sentado el operario en la máquina, a la altura de la rodilla se encuentra una pieza llamada rodillero, haciéndole presión se activa y se levanta el pie prensatelas. 
                 td Para levantar el pie prensatelas se utiliza también el pedal. Ahorra tiempo y fatiga en el trabajador.
 

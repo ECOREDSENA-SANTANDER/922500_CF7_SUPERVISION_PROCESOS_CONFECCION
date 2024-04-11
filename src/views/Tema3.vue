@@ -25,7 +25,7 @@
         p Según la American Petroleum Co. Inc. (2012), los aditivos de antidesgaste permiten aumentar las posibles aplicaciones de lubricación en mayor cantidad de máquinas, y son utilizados, principalmente, en máquinas de coser, al igual que en maquinarias de precisión de la industria textil, industria de confección, ejes, deslizadoras, máquinas de oficina, carriles de impresoras y mangas de ejes. Por su cuerpo liviano y claro tiene extraordinaria lubricidad y no crean goma; además, al utilizarlo en metal impedirá el desarrollo de herrumbre en las cerraduras, bisagras, tuercas, etc.; por su alta pureza es biodegradable y son totalmente lavables en caso de provocar manchas en los tejidos, telas, hilos, etc.
       .col-lg-4(data-aos='fade-left')
         figure.mb-5
-          img(src='@/assets/curso/tema_3/img_2.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/tema_3/img_2.svg', alt='Texto que describa la imagen')
 
     .cajon.color-secundario.p-4.mb-5(data-aos='fade-right')
       p Este aceite no es recomendado para transmisiones mecánicas o reductores industriales. Además, al reducir el desgaste evita que los equipos estén fuera de servicio a causa del mantenimiento, lo cual aumenta la productividad. Este producto es extremadamente estable y contiene agentes demulsificantes, inhibidores de herrumbre, corrosión y espumas, también crea una fuerte película y tiene propiedades excepcionales de antidesgaste y agentes demulsificantes.
@@ -36,7 +36,7 @@
       .col-lg-10
         .tarjeta-avatar-b.mb-5
           img(src='@/assets/curso/tema_3/img_3.svg' alt='AvatarTop' data-aos='fade-right')
-          .tarjeta.tarjeta--bg1
+          .tarjeta.color-fondo
             .p-4(data-aos='fade-left')
               h2 Lubricación automática
               p Está implementada a través del bombeo de grasa o aceite desde el reservorio central a las diferentes zonas de lubricación de forma automática, está basada en los requerimientos técnicos especificados por los fabricantes de maquinarias.
@@ -45,14 +45,14 @@
         
         .tarjeta-avatar-b.mb-5
           img(src='@/assets/curso/tema_3/img_4.svg' alt='AvatarTop' data-aos='fade-right')
-          .tarjeta.tarjeta--bg2
+          .tarjeta.color-fondo
             .p-4(data-aos='fade-left')
               h2 Lubricación por mecha
               p.mb-0 Sistema implementado en el principio de la capilaridad de un material poroso que se genera como mecha el cual absorbe el lubricante para generar el contacto con las piezas en movimiento.
 
         .tarjeta-avatar-b.mb-5
           img(src='@/assets/curso/tema_3/img_5.svg' alt='AvatarTop' data-aos='fade-right')
-          .tarjeta.tarjeta--bg1
+          .tarjeta.color-fondo
             .p-4(data-aos='fade-left')
               h2 Lubricación manual
               p.mb-0 Sistema de lubricación basado en la implementación de un mecanismo como pistola de engrase o bomba manual que genera el lubricante a presión, por baño de aceite o por gotas.
@@ -75,7 +75,7 @@
               p Son utilizados en piezas de alta temperatura o revoluciones de fricción.
       .col-lg-6.d-flex(data-aos='fade-left')
         .tarjeta-avatar-b.mb-5
-          .tarjeta.tarjeta--bg2.tar-av
+          .tarjeta.color-fondo.tar-av
             .p-4
               h2 Lubricantes por grasa
               p Conformados por un aceite base ligado por un espesante que garantiza permanencia en el punto de lubricación, posibilitando una protección que sella las piezas de la fricción, el desgate e influencias de humedad o sustancias extrañas.
@@ -85,7 +85,7 @@
       .col-lg-6(data-aos='fade-right')
         .tarjeta-avatar-b.mb-5
           img(src='@/assets/curso/tema_3/img_8.svg' alt='AvatarTop')
-          .tarjeta.tarjeta--bg2
+          .tarjeta.color-fondo
             .p-4
               h2 Lubricantes de aire / aceite
               p Basado en una nueva tecnología, que genera una corriente de aire, que posibilita la refrigeración y lubricación a partir de partículas de aceite que recubren las partes.

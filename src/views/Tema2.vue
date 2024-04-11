@@ -16,7 +16,9 @@
     p.mb-5(data-aos='fade-right') Para realizar el mantenimiento se requiere una serie de recursos relacionados con la parte técnica y administrativa. Estas actividades deben ser desarrolladas en orden lógico, y una de sus condiciones, y función principal, es que el equipo conserve un funcionamiento eficiente, seguro y que sus gastos sean racionales. 
 
     .cajon.color-primario.p-4.mb-5(data-aos='fade-left')
-      p.mb-0 La finalidad del mantenimiento es alargar la vida útil de las máquinas y herramientas, y además que haya un ambiente de limpieza e higiene impecable, lo cual se verá reflejado en la productividad y calidad de la producción de la organización. 
+      .row.justify-content-center
+        .col-lg-10
+          p.mb-0 La finalidad del mantenimiento es alargar la vida útil de las máquinas y herramientas, y además que haya un ambiente de limpieza e higiene impecable, lo cual se verá reflejado en la productividad y calidad de la producción de la organización. 
 
     .h5.mb-5(data-aos='fade-right') Entre las funciones más importantes de este proceso, se pueden definir las siguientes:
 
@@ -76,7 +78,7 @@
     h5.text-center.mb-5(data-aos='fade-left') Para realizar el mantenimiento es importante:
 
     .tarjeta--container.row.mb-5
-      .col-md.tarjeta.color-acento-botones.p-5
+      .col-md.tarjeta.color-acento-contenido.p-5
         .row.justify-content-center.mb-4
           .col-6(data-aos='fade')
             figure
@@ -91,10 +93,10 @@
             figure
               img(src='@/assets/curso/tema_2/img_4.svg', alt='Texto que describa la imagen')
           
-        p.text-center.text-white Tener en cuenta las calidades de los materiales a utilizar: repuestos, lubricantes, herramientas, accesorios, y también el servicio técnico a utilizar.
+        p.text-center Tener en cuenta las calidades de los materiales a utilizar: repuestos, lubricantes, herramientas, accesorios, y también el servicio técnico a utilizar.
 
       
-      .col-md.tarjeta.color-acento-botones.text-white.p-5
+      .col-md.tarjeta.color-acento-contenido.text-white.p-5
         .row.justify-content-center.mb-4
           .col-6(data-aos='fade')
             figure
@@ -160,7 +162,7 @@
           p En las máquinas planas se revisa la planchuela, los dientes, la caja bobina o canillero, y la lanzadera; en las fileteadoras sencillas o con puntada de seguridad, se revisan sus placas frontales y laterales, como es una máquina que realiza cortes de tela, se debe revisar las cuchillas y retirar todas las suciedades y pelusas que acumula; en las planchas se deben desmontar las bases y revisar los conductos por donde va el agua y revisar los tanques o calderines que producen el vapor. Además, las máquinas tienen identificados los puntos por donde se les debe proveer el lubricante y cuando se termina el mantenimiento se debe ensayar cada máquina para asegurar que quedó funcionando después de la intervención.
         .col-lg-3.mb-3
           figure
-            img(src='@/assets/curso/tema_2/img_7.png', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/tema_2/img_7.svg', alt='Texto que describa la imagen')
     
         p También es importante mantener en inventario las piezas pequeñas que requieran ser sustituidas de manera periódica para evitar que se detenga la producción, este ejercicio debe quedar registrado. En resumen, todas las actividades enfocadas a evitar que las máquinas dejen de funcionar de manera intempestiva, mejor dicho, todo lo que se haga para que el equipo no deje de funcionar, se puede catalogar como mantenimiento preventivo.
 
@@ -199,10 +201,11 @@
           p Al referirse al mantenimiento que se realiza periódicamente y de manera general a todas las máquinas, herramientas e instalaciones locativas, se habla de un mantenimiento general; este tipo de actividad no excluye ninguna de las otras que se realizan en la empresa. Por ejemplo, como política a veces se tiene que cada año, antes de reiniciar labores, se hace un mantenimiento general con el fin de remediar o evitar asuntos que los otros mantenimientos no lograron. Se debe incluir en este mantenimiento en las empresas de confección, también el sistema eléctrico y de computación, al igual que el equipo automotor.
 
           .cajon.color-primario.p-4
-            .row
-              .col-lg-6
+            .row.justify-content-center
+              .col-lg-10
                 p Fortalezca su conocimiento sobre el mantenimiento de máquinas consultando el capítulo 1 Preparación de máquinas, útiles y accesorios para el corte de materiales y ensambles de confección. (numeral 7 a 13) en la Biblioteca virtual SENA.
-              .col-lg-6
+            .row.justify-content-center  
+              .col-lg-10
                 a.anexo.mb-4.mb-lg-0(href="https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/43646" target="_blank")
                   .anexo__icono
                     img(src="@/assets/template/icono-link.svg")
@@ -219,7 +222,7 @@
     .row.justify-content-center(data-aos='fade-left')
       .col-lg-10
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-          h5 Tabla 4.
+          h5 Tabla 5.
           span Formato para reglamentar actividades de mantenimiento
         .tabla-a.color-acento-contenido.mb-5 
           table
