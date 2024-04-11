@@ -9,40 +9,43 @@
       h1 Máquinas y herramientas para confección
 
     p.mb-5(data-aos='fade-right') Después de completar las actividades de trazo y corte, el siguiente paso es la programación de la producción. Esto implica la programación de las máquinas y herramientas, que se encargan de transformar las materias primas cortadas junto con los insumos, en productos terminados. Las máquinas de confección son responsables de unir las piezas cortadas mediante agujas e hilos, y se complementan con accesorios necesarios para llevar a cabo operaciones manuales.
+      .row.justify-content-center
+        .col-lg-10
+          .row.justify-content-center.fondo1.py-4
+            .col-lg-11
+              figure.mb-5(data-aos='fade-left')
+                img(src='@/assets/curso/tema_1/img_2.png', alt='Texto que describa la imagen')
 
-    figure.mb-5(data-aos='fade-left')
-      img(src='@/assets/curso/tema_1/img_2.png', alt='Texto que describa la imagen')
+              p(data-aos='fade-right') Estas se pueden clasificar de acuerdo con los sistemas tradicionales de funcionamiento o con tecnologías más recientes, hoy el avance ha sido significativo en los sistemas de las máquinas de coser aprovechando la cuarta revolución industrial, la automatización y el internet de las cosas; es importante, entonces, conocer los equipos tradicionales para confeccionar y las alternativas modernas. Todo esto debe ir articulado con las nuevas maneras y metodologías para producir prendas de vestir. 
 
-    p(data-aos='fade-right') Estas se pueden clasificar de acuerdo con los sistemas tradicionales de funcionamiento o con tecnologías más recientes, hoy el avance ha sido significativo en los sistemas de las máquinas de coser aprovechando la cuarta revolución industrial, la automatización y el internet de las cosas; es importante, entonces, conocer los equipos tradicionales para confeccionar y las alternativas modernas. Todo esto debe ir articulado con las nuevas maneras y metodologías para producir prendas de vestir. 
+              p.mb-5(data-aos='fade-right') Estas máquinas y herramientas realizan funciones específicas para la construcción de las prendas de vestir: unir telas, dobladillar bordes de telas, recubrir de hilo partes de tela, embonar telas, pegar botones, elaborar ojales, fusionar entretelas a telas, voltear piezas entalegadas, hacer costuras de refuerzo, entre otras. 
 
-    p.mb-5(data-aos='fade-right') Estas máquinas y herramientas realizan funciones específicas para la construcción de las prendas de vestir: unir telas, dobladillar bordes de telas, recubrir de hilo partes de tela, embonar telas, pegar botones, elaborar ojales, fusionar entretelas a telas, voltear piezas entalegadas, hacer costuras de refuerzo, entre otras. 
+      .row.mb-5.d-flex.py-4
+        .col-lg-8.mb-5(data-aos='fade-right')
+          p 
+            strong De acuerdo con lo anterior, cada una tiene una función especial, en las plantas de confección se utilizan estos elementos con las siguientes funciones:
 
-    .row.mb-5.d-flex
-      .col-lg-8.mb-5(data-aos='fade-right')
-        p 
-          strong De acuerdo con lo anterior, cada una tiene una función especial, en las plantas de confección se utilizan estos elementos con las siguientes funciones:
-
-        .hr.mb-3
-        .row.justify-content-center
-          .col-lg-11
-            ul.lista-ul--color
-              li 
-                i.fas.fa-atom
-                | Las máquinas que se encargan del tema de costuras, hilos que unen piezas cortadas o que realizan líneas decorativas en la ropa que fabrican. Si se mira una prenda de vestir, ropa de hogar o cualquier elemento fabricado con tejidos e intervenido con costuras, se identifica que no todas las costuras son iguales, esto se debe a que son manufacturados con diferentes máquinas. 
-        .hr.mb-3
-        .row.justify-content-center
-          .col-lg-11
-            ul.lista-ul--color
-              li 
-                i.fas.fa-atom
-                | Las herramientas, accesorios, guías y demás instrumentos que ayudan a resolver el tema de ensamble de piezas. Algunos de estos elementos se adaptan a las máquinas para facilitar las operaciones que se realizan en ellas y otros se utilizan de manera independiente en operaciones que se realizan de manera manual y son operaciones intermedias, es decir, entre una operación y otra, tales como: organizar piezas para facilitar la siguiente operación, marcar posiciones o puntos necesarios para ubicar piezas, recortar sobrantes, unir piezas por intermedio de calor (fusionar).
-      .col-lg-4(data-aos='fade-left')
-        .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-          h5 Figura 1.
-          span Imagen de taller de confección
-        figure
-          img(src='@/assets/curso/tema_1/img_3.png', alt='Texto que describa la imagen')
-          figcaption Nota. Tomada de Ivan Samkov en Pexels.
+          .hr.mb-3
+          .row.justify-content-center
+            .col-lg-11
+              ul.lista-ul--color
+                li 
+                  i.fas.fa-atom
+                  | Las máquinas que se encargan del tema de costuras, hilos que unen piezas cortadas o que realizan líneas decorativas en la ropa que fabrican. Si se mira una prenda de vestir, ropa de hogar o cualquier elemento fabricado con tejidos e intervenido con costuras, se identifica que no todas las costuras son iguales, esto se debe a que son manufacturados con diferentes máquinas. 
+          .hr.mb-3
+          .row.justify-content-center
+            .col-lg-11
+              ul.lista-ul--color
+                li 
+                  i.fas.fa-atom
+                  | Las herramientas, accesorios, guías y demás instrumentos que ayudan a resolver el tema de ensamble de piezas. Algunos de estos elementos se adaptan a las máquinas para facilitar las operaciones que se realizan en ellas y otros se utilizan de manera independiente en operaciones que se realizan de manera manual y son operaciones intermedias, es decir, entre una operación y otra, tales como: organizar piezas para facilitar la siguiente operación, marcar posiciones o puntos necesarios para ubicar piezas, recortar sobrantes, unir piezas por intermedio de calor (fusionar).
+        .col-lg-4(data-aos='fade-left')
+          .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+            h5 Figura 1.
+            span Imagen de taller de confección
+          figure
+            img(src='@/assets/curso/tema_1/img_3.png', alt='Texto que describa la imagen')
+            figcaption Nota. Tomada de Ivan Samkov en Pexels.
 
     separador
 
@@ -51,7 +54,7 @@
 
     p.mb-5(data-aos='fade-right') Para identificar las máquinas y sus partes, repuestos, accesorios, componentes y herramientas, además de los elementos que hacen parte del puesto de trabajo en operaciones de confección, a continuación, se presenta una serie de términos de uso cotidiano en el proceso de confección. 
 
-    TabsB.color-acento-contenido.mb-5(data-aos='fade-left')
+    TabsB.mb-5(data-aos='fade-left')
       .py-4.py-md-5(titulo="Ajuste" :icono="require('@/assets/curso/tema_1/img_4.svg')")
         p.mb-5 En la industria de la moda hay gran cantidad de diseños en múltiples tejidos y con gran variedad de costuras. En esa parte las diseñadoras aprovechan todos los avances tecnológicos que en las maquinarias, costuras, guías y aditamentos se han venido implementando. Además, saber combinar textiles, agujas, dientes, pie prensatelas, hilos y demás, es una virtud que se debe tener en cuenta para sacar adelante los proyectos de manera eficiente, a eso se le llama combinación de costura. El ajuste, entonces, se podría definir como los elementos que posee la máquina y que se relacionan de manera directa con los tejidos: aguja, prensatelas, dientes y planchuela. Existen ajustes, livianos, semipesados y pesados que se utilizan de acuerdo con los tejidos que se van a trabajar: telas livianas = ajuste liviano, y así sucesivamente.
 
