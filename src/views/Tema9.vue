@@ -15,7 +15,7 @@
 
     p.mb-5(data-aos='fade-right') Todo lo anterior se puede lograr, pero si cuando el trabajo llegue con esa sincronización ocurre que la máquina no funciona, se podría malograr la programación anterior, entonces, aquí se nota la importancia del capítulo de este módulo y que complementa el plan de producción, que la máquina y el puesto de trabajo estén organizados de acuerdo con las especificaciones técnicas requeridas, tanto de la prenda como de la máquina.
 
-    .cajon.color-primario.p-4.mb-5(data-aos='fade-left')
+    .cajon.cajon-color-rosa.p-4.mb-5(data-aos='fade-left')
       p 
         strong Poner a punto la máquina siguiendo especificaciones técnicas, tiene que ver con:
       .row.justify-content-center
@@ -51,23 +51,32 @@
 
     .row.justify-content-center
       .col-lg-8(data-aos='fade-left')
+        figure.mb-5
+          img(src='@/assets/curso/tema_9/img_3.png', alt='Texto que describa la imagen')
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
           h5 Figura 28.
           span Imagen de una puesta a punto de una máquina de coser
-        figure.mb-5
-          img(src='@/assets/curso/tema_9/img_3.png', alt='Texto que describa la imagen')
-
         p.mb-5 Para concluir este tema, se invita a ver el siguiente video de la puesta a punto de una máquina de coser, en este caso de la marca Pfaff.
 
-        .row.justify-content-center
-          .col-lg-10
-            a.anexo.mb-4.mb-lg-0.botton--bg2(href="https://www.youtube.com/watch?v=YNf0salcrlc&ab_channel=MecanicaConfeccion" target="_blank")
-              .anexo__icono
-                img(src="@/assets/template/icono-link-1.svg")
-              .anexo__texto
-                p #[strong Enlace web.] Mecánica de confección. (2018). Puesta a punto de las máquinas de coser. 
 
-
+    .row.justify-content-around.align-items-center 
+      .col-lg-10
+        .tarjeta.color-secundario.p-3.mb-5
+          .row.justify-content-around.align-items-center
+            .col-3.col-sm-2.col-lg-1.d-none.d-lg-block
+              img(src="@/assets/curso/tema_4/video.svg")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  p Para concluir este tema, se invita a explorar el siguiente video de la puesta a punto de una máquina de coser, en este caso de la marca Paff.
+                  p.text-small #[b Enlace web. ] 
+                    span Mecánica de confección. (2018). Puesta a punto de las máquinas de coser. 
+                .col-sm-auto
+                  a.boton.color-acento-botones.text-white(href="https://www.youtube.com/watch?v=YNf0salcrlc&ab_channel=MecanicaConfeccion" target="_blank")
+                    span.text-white Ver video
+                    i.fas.fa-video
+    
+      
 
 
 

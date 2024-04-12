@@ -5,7 +5,24 @@ export default {
       'El presente componente ilustra sobre la manera de diseñar e implementar un programa de mantenimiento de maquinaria y equipos de confección industrial, a través del conocimiento de los sistemas de funcionamiento de dichos equipos. También se evidencia la importancia de una gestión apropiada que permita el mejor aprovechamiento de las máquinas.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
-    imagenesDecorativasBanner: [],
+    imagenesDecorativasBanner: [
+      {
+        clases: ['banner-principal-decorativo-1'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-2'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-4'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-4.png'),
+      },
+    ],
   },
   menuPrincipal: {
     menu: [

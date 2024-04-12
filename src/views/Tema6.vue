@@ -13,7 +13,7 @@
     p.mb-5(data-aos='fade-right') La guía por naturaleza que se utiliza es el pie prensatelas cuya forma, al hacer contacto con la tela, ayuda a hacer costuras rectas y a la distancia solicitada. 
     
       
-    .cajon.color-primario.p-4.mb-5(data-aos='fade-left')
+    .cajon.cajon-color-rosa.p-4.mb-5(data-aos='fade-left')
       p 
         strong Como beneficios de utilización de guías se tienen los siguientes:
       .row.justify-content-center

@@ -23,10 +23,10 @@
           img(src='@/assets/curso/tema_8/img_1.png', alt='Texto que describa la imagen')
 
     .hr1
-    .bloque-texto-b.color-secundario.p-4.mb-5(data-aos='fade-left')
+    .bloque-texto-b.color-rosadoD.p-4.mb-5(data-aos='fade-left')
       .bloque-texto-b__texto
         i.fas.fa-quote-left
-        p.mb-0 De acuerdo con el blog Ananas Labores y Manualidades (2016) el hecho de mantener una buena práctica de higiene con respecto al mantenimiento de las máquinas de confección permite prevenir la generación de elementos obstructivos como pelusas o restos de hilo que podrían entorpecer el funcionamiento de algunas piezas. Dichos elementos pueden surgir después de cierto tiempo o determinada cantidad de producción, por lo tanto, la limpieza se debe realizar periódicamente para evitar retrasos e inconvenientes en la misma producción. 
+        h5 De acuerdo con el blog Ananas Labores y Manualidades (2016) el hecho de mantener una buena práctica de higiene con respecto al mantenimiento de las máquinas de confección permite prevenir la generación de elementos obstructivos como pelusas o restos de hilo que podrían entorpecer el funcionamiento de algunas piezas. Dichos elementos pueden surgir después de cierto tiempo o determinada cantidad de producción, por lo tanto, la limpieza se debe realizar periódicamente para evitar retrasos e inconvenientes en la misma producción. 
         i.fas.fa-quote-right.d-flex.justify-content-end
     
     .row.d-flex

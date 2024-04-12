@@ -15,7 +15,7 @@
 
     p.mb-5(data-aos='fade-right') Para realizar el mantenimiento se requiere una serie de recursos relacionados con la parte técnica y administrativa. Estas actividades deben ser desarrolladas en orden lógico, y una de sus condiciones, y función principal, es que el equipo conserve un funcionamiento eficiente, seguro y que sus gastos sean racionales. 
 
-    .cajon.color-primario.p-4.mb-5(data-aos='fade-left')
+    .cajon.cajon-color-rosa.p-4.mb-5(data-aos='fade-left')
       .row.justify-content-center
         .col-lg-10
           p.mb-0 La finalidad del mantenimiento es alargar la vida útil de las máquinas y herramientas, y además que haya un ambiente de limpieza e higiene impecable, lo cual se verá reflejado en la productividad y calidad de la producción de la organización. 
@@ -204,14 +204,24 @@
             .row.justify-content-center
               .col-lg-10
                 p Fortalezca su conocimiento sobre el mantenimiento de máquinas consultando el capítulo 1 Preparación de máquinas, útiles y accesorios para el corte de materiales y ensambles de confección. (numeral 7 a 13) en la Biblioteca virtual SENA.
-            .row.justify-content-center  
-              .col-lg-10
-                a.anexo.mb-4.mb-lg-0(href="https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/43646" target="_blank")
-                  .anexo__icono
-                    img(src="@/assets/template/icono-link.svg")
-                  .anexo__texto
-                    p #[strong Enlace web.] Durán, P., D. (2013). Preparación de máquinas de corte, ensamblado y acabado. IC Editorial.
-
+            
+          .row.justify-content-around.align-items-center 
+            .col-lg-9
+              .tarjeta.color-secundario.p-3.mb-5
+                .row.justify-content-around.align-items-center
+                  .col-3.col-sm-2.col-lg-1.d-none.d-lg-block
+                    img(src="@/assets/curso/tema_2/enlace.svg")
+                  .col
+                    .row.justify-content-between.align-items-center
+                      .col.mb-3.mb-sm-0
+                        p #[b Enlace web. ] 
+                          span Durán, P., D. (2013). Preparación de máquinas de corte, ensamblado y acabado. IC Editorial.
+                      .col-sm-auto
+                        a.boton.color-acento-botones.text-white(href="https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/43646" target="_blank")
+                          span.text-white Ver enlace
+                          i.fas.fa-link
+            
+            
     separador
 
     #t_2_2.titulo-segundo.color-acento-contenido

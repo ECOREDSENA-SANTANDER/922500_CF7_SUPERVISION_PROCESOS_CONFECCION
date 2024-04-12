@@ -21,18 +21,23 @@
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
           h5 Figura 23.
           span Administración del mantenimiento
-
-    .row.justify-content-center(data-aos='fade-right')
-      .cajon.color-primario.p-4
-        .row      
-          .col-lg-6
-            p Como elemento complementario al tema, se sugiere revisar el video La gestión de mantenimiento de las empresas
-          .col-lg-6
-            a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=-5nxVsKSNaI&ab_channel=Dr.BuchelliUNT" target="_blank")
-              .anexo__icono
-                img(src="@/assets/template/icono-link-1.svg")
-              .anexo__texto
-                p #[strong Enlace web.] Dr. Buchelli UNT. (2014). La gestión del mantenimiento en las empresas. 
+    .row.justify-content-around.align-items-center 
+      .col-lg-10
+        .tarjeta.color-secundario.p-3.mb-5
+          .row.justify-content-around.align-items-center
+            .col-3.col-sm-2.col-lg-1.d-none.d-lg-block
+              img(src="@/assets/curso/tema_4/enlace.svg")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  p Como elemento complementario al tema, se sugiere revisar el video La gestión de mantenimiento de las empresas
+                  p #[b Enlace web. ] 
+                    span Dr. Buchelli UNT. (2014). La gestión de mantenimiento de las empresas. 
+                .col-sm-auto
+                  a.boton.color-acento-botones.text-white(href="https://www.youtube.com/watch?v=-5nxVsKSNaI&ab_channel=Dr.BuchelliUNT" target="_blank")
+                    span.text-white Ver enlace
+                    i.fas.fa-link
+    
 
     separador
 
@@ -57,7 +62,7 @@
             figure.mb-5
               img.img-a(src='@/assets/curso/tema_4/img_2.svg', alt='Texto que describa la imagen')
 
-    .cajon.color-primario.p-4.mb-5
+    .cajon.cajon-color-verderojo.p-4.mb-5
       .row.justify-content-center
         .col-lg-5(data-aos='fade-right')
           p 
@@ -81,11 +86,21 @@
         .col-lg-5(data-aos='fade-left')
           p Ahora, se recomienda observar en el siguiente video sobre el Plan de mantenimiento y los 5 elementos que ayudarán en la adecuada gestión del plan. 
 
-          a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=av7JwCDox3A&ab_channel=ValborSoluciones" target="_blank")
-              .anexo__icono
-                img(src="@/assets/template/icono-link-1.svg")
-              .anexo__texto
-                p #[strong Enlace web.] Valbor Soluciones. (2018). Plan de mantenimiento: 5 elementos indispensables.
+          .row.justify-content-around.align-items-center 
+            .col-lg-12
+              .tarjeta.color-secundario.p-3.mb-5
+                .row.justify-content-around.align-items-center
+                  .col-3.col-sm-2.col-lg-2.d-none.d-lg-block
+                    img(src="@/assets/curso/tema_4/enlace.svg")
+                  .col
+                    .row.justify-content-between.align-items-center
+                      .col.mb-3.mb-sm-0
+                        p #[b Enlace web. ] 
+                          span Valbor Soluciones. (2018). Plan de mantenimiento: 5 elementos 
+                      .col-sm-auto
+                        a.boton.color-acento-botones.text-white(href="https://www.youtube.com/watch?v=av7JwCDox3A&ab_channel=ValborSoluciones" target="_blank")
+                          span.text-white Ver enlace
+                          i.fas.fa-link
 
     h4(data-aos='fade-left') Información previa para elaborar plan de mantenimiento
     p(data-aos='fade-right') Desde el departamento de producción se debe emitir la siguiente información, para direccionar adecuadamente el plan: 
@@ -182,19 +197,29 @@
             .hr.mb-5
       p.mb-5(data-aos='fade-right') Se invita a ver el video Elaboración de un programa de mantenimiento, el cual le orientará sobre la forma de realizar un programa preventivo de mantenimiento.
         
-        .row.justify-content-center(data-aos='fade-left')
-          .col-lg-8
-            a.anexo.mb-4.mb-lg-0.botton--bg2(href="https://www.youtube.com/watch?v=ufdL4VmHt4I&ab_channel=TopSoluci%C3%B3n" target="_blank")
-              .anexo__icono
-                img(src="@/assets/template/icono-link-1.svg")
-              .anexo__texto
-                p #[strong Enlace web.] Top Solución. (s.f.). Plan de mantenimiento. 
 
+        .row.justify-content-around.align-items-center 
+          .col-lg-10
+            .tarjeta.color-secundario.p-3.mb-5
+              .row.justify-content-around.align-items-center
+                .col-3.col-sm-2.col-lg-1.d-none.d-lg-block
+                  img(src="@/assets/curso/tema_4/video.svg")
+                .col
+                  .row.justify-content-between.align-items-center
+                    .col.mb-3.mb-sm-0
+                      p Se invita a ver el video Elaboración de un programa de mantenimiento, el cual le orientará sobre la forma de realizar un programa preventivo de mantenimiento. 
+                      p #[b Enlace web. ] 
+                        span Top Solución. (s.f.). Plan de mantenimiento. 
+                    .col-sm-auto
+                      a.boton.color-acento-botones.text-white(href="https://www.youtube.com/watch?v=ufdL4VmHt4I&ab_channel=TopSoluci%C3%B3n" target="_blank")
+                        span.text-white Ver video
+                        i.fas.fa-video
+  
     
     h4(data-aos='fade-left') Almacén y/o taller de mantenimiento
     p.mb-5(data-aos='fade-right') De acuerdo con el tamaño de las empresas, los sitios destinados para almacenar las herramientas necesarias para realizar mantenimientos y reparaciones a las máquinas, puede ser el mismo sitio donde se almacenan los repuestos, lubricantes, catálogos, llaves, guías y accesorios, entre otros. 
 
-    .cajon.color-secundario.p-4(data-aos='fade-left')
+    .cajon.cajon-color-verderojo.p-4(data-aos='fade-left')
       P 
         strong Es muy importante tener un sitio destinado a estos menesteres para evitar que:
       ul.lista-ul.color2.mb-0

@@ -115,15 +115,23 @@
             figure
               img(src='@/assets/curso/tema_1/img_12.png', alt='La aguja y sus partes')
               figcaption Nota. Tomada de Coats (s.f.)
-
         
-        .row.justify-content-center
-          .col-lg-7
-            a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/embed/kVNt52lzehQ" target="_blank")
-              .anexo__icono
-                img(src="@/assets/template/icono-link.svg")
-              .anexo__texto
-                p #[strong Enlace web.] Se invita a consultar el video de manos a la tela: Tipos de agujas para máquinas de coser doméstica.
+        .row.justify-content-around.align-items-center 
+          .col-lg-9
+            .tarjeta.color-secundario.p-4.mb-5
+              .row.justify-content-around.align-items-center
+                .col-3.col-sm-2.col-lg-1.d-none.d-lg-block
+                  img(src="@/assets/curso/tema_1/video.svg")
+                .col
+                  .row.justify-content-between.align-items-center
+                    .col.mb-3.mb-sm-0
+                      p #[b Enlace web. ] 
+                        span Se invita a consultar el video de manos a la tela: Tipos de agujas para máquinas de coser doméstica.
+                    .col-sm-auto
+                      a.boton.color-acento-botones.text-white(href="https://www.youtube.com/embed/kVNt52lzehQ" target="_blank")
+                        span.text-white Ver Video
+                        i.fas.fa-video
+          
             
       .py-4.py-md-5(titulo="Dientes" :icono="require('@/assets/curso/tema_1/img_13.svg')")  
         .row
@@ -149,17 +157,26 @@
               figcaption Nota. Tomada de Amazon.com (s.f.)
       .py-4.py-md-5(titulo="Lazada" :icono="require('@/assets/curso/tema_1/img_17.svg')")  
         .row
-          .col-lg-6
+          .col-lg-7
             p Costura que se forma cuando el hilo de la aguja interactúa con el hilo de la bobina o de abajo, formando una trenza.
 
             p.mb-5 Ahora, se sugiere observar el siguiente video sobre la formación de la lazada: 
-
-            a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/embed/SKTaW5NOjqw" target="_blank")
-              .anexo__icono
-                img(src="@/assets/template/icono-link.svg")
-              .anexo__texto
-                p #[strong Enlace web.] Mecánica de confección: cómo funciona una máquina de coser y forma la puntada.
-          .col-lg-6
+ 
+            .tarjeta.color-secundario.p-4.mb-5
+              .row.justify-content-around.align-items-center
+                .col-3.col-sm-2.col-lg-2.d-none.d-lg-block
+                  img(src="@/assets/curso/tema_1/video.svg")
+                .col
+                  .row.justify-content-between.align-items-center
+                      .col.mb-1.mb-sm-0
+                        p #[b Enlace web. ] 
+                          span Mecánica de confección: cómo funciona una máquina de coser y forma la puntada.
+                      .col-sm-auto
+                        a.boton.color-acento-botones.text-white(href="https://www.youtube.com/embed/SKTaW5NOjqw" target="_blank")
+                          span Ver Video
+                          i.fas.fa-video
+           
+          .col-lg-5
             .titulo-sexto.color-acento-contenido(data-aos='fade-right')
               h5 Figura 10.
               span Lazada

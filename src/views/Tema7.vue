@@ -17,22 +17,24 @@
         figure.mb-5
           img(src='@/assets/curso/tema_7/img_1.png', alt='Texto que describa la imagen')
 
-    .cajon.color-secundario.p-4.mb-5(data-aos='fade-right')
+    .cajon.cajon-color-verderojo.p-4.mb-5(data-aos='fade-right')
       p Los casos más comunes que se presentan son: agujas mal colocadas o elegidas, mal enhebrado de la máquina, mal puesto el carretel en la bobina, tensiones mal calibradas e hilos mal puestos en el portaconos, entre otros.
-
-    p(data-aos='fade-right') En el tema de mantenimiento, el personal operativo, tiene unas responsabilidades específicas, una de las cuales es atender el mantenimiento preventivo, como la lubricación y el aseo de las máquinas. Como en todo escenario laboral, usualmente suceden ciertos percances que podrían pensarse como situaciones problemáticas para llevar a cabo cualquier proceso o acción; y el área del mantenimiento de máquinas no es la excepción, puesto que en las plantas de confección comúnmente se presentan ciertos elementos que conllevan a una revisión para determinar la gravedad y solución de un problema. 
-
-    p(data-aos='fade-right') De esta forma, al conocer acciones esenciales, se hace referencia a los primeros auxilios para el mantenimiento de máquinas, lo que significa la acción seguida a la identificación del factor que está causando interferencia en la máquina, reconociendo si es de gran magnitud o simplemente requiere un ajuste, pequeño arreglo o cambio de algún componente. Entender cómo actuar en este tipo de casos donde no hay mayor necesidad de solicitar la ayuda del profesional en mecánica o ingeniería para arreglar las máquinas, permitirá optimizar tiempo de producción y evitar retrasos en los procesos productivos.
-
-    p.mb-5(data-aos='fade-right') Para ello, se ha pensado en los problemas más comunes que pueden generarse y sus posibles soluciones, siempre y cuando no se presenten mayores dificultades para que el mismo operario pueda desenvolverse de la forma más adecuada ante la eventualidad.
-
+    
     .row.justify-content-center.mb-5(data-aos='fade-left')
-      .col-lg-10
+      .col-lg-8
+        p(data-aos='fade-right') En el tema de mantenimiento, el personal operativo, tiene unas responsabilidades específicas, una de las cuales es atender el mantenimiento preventivo, como la lubricación y el aseo de las máquinas. Como en todo escenario laboral, usualmente suceden ciertos percances que podrían pensarse como situaciones problemáticas para llevar a cabo cualquier proceso o acción; y el área del mantenimiento de máquinas no es la excepción, puesto que en las plantas de confección comúnmente se presentan ciertos elementos que conllevan a una revisión para determinar la gravedad y solución de un problema. 
+        p(data-aos='fade-right') De esta forma, al conocer acciones esenciales, se hace referencia a los primeros auxilios para el mantenimiento de máquinas, lo que significa la acción seguida a la identificación del factor que está causando interferencia en la máquina, reconociendo si es de gran magnitud o simplemente requiere un ajuste, pequeño arreglo o cambio de algún componente. Entender cómo actuar en este tipo de casos donde no hay mayor necesidad de solicitar la ayuda del profesional en mecánica o ingeniería para arreglar las máquinas, permitirá optimizar tiempo de producción y evitar retrasos en los procesos productivos.
+        p.mb-5(data-aos='fade-right') Para ello, se ha pensado en los problemas más comunes que pueden generarse y sus posibles soluciones, siempre y cuando no se presenten mayores dificultades para que el mismo operario pueda desenvolverse de la forma más adecuada ante la eventualidad.
+      .col-lg-4
+        img(src='@/assets/curso/tema_7/img_2.svg', alt='Texto que describa la imagen')
+    
+    .row.justify-content-center.mb-5(data-aos='fade-left')
+      .col-lg-11
 
-        .bloque-texto-d.color-secundario.p-4
+        .bloque-texto-d.color-rosadoD.p-4
           .bloque-texto-d__texto.mb-2
             i.fas.fa-quote-left
-            p.text-regular De acuerdo con Tabares (1990) en su cartilla Mantenimiento en la industria de la confección (problemas técnicos y soluciones) se evidencian posibles problemas mecánicos que pueden surgir con mayor frecuencia con las máquinas de confección, así como la solución sugerida. Estos se muestran en la siguiente tabla, donde se eligieron problemas menores para ser corregidos, puesto que otros de mayor magnitud no entran en la categoría de primeros auxilios en mantenimiento de máquinas de confección.
+            h5 De acuerdo con Tabares (1990) en su cartilla Mantenimiento en la industria de la confección (problemas técnicos y soluciones) se evidencian posibles problemas mecánicos que pueden surgir con mayor frecuencia con las máquinas de confección, así como la solución sugerida. Estos se muestran en la siguiente tabla, donde se eligieron problemas menores para ser corregidos, puesto que otros de mayor magnitud no entran en la categoría de primeros auxilios en mantenimiento de máquinas de confección.
             i.fas.fa-quote-right.d-flex.justify-content-end
 
     .titulo-sexto.color-acento-contenido(data-aos='fade-right')

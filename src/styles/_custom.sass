@@ -2,13 +2,30 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 27%
+    right: 77%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
+    top: 7%
+    right: 52%
+  &-3
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 5%
     right: 30%
+  &-4
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 70%
+    right: 30%
+
+@keyframes float1
+  0%
+    transform: translateY(20px)
+
+  100%
+    transform: translateY(0px)
 .tabs-b__tab--active 
   border-top-color: #0ce6ea !important
 .fondo1
@@ -116,7 +133,7 @@
   background-color: #E8E8E8
 
 .th_bg2
-  background-color: #EA526F
+  background-color: #9B1F36
   color: $white !important
 
 .th_bg3
@@ -125,6 +142,15 @@
 .bloque-texto-b i 
     font-size: 2.5em
     color: #1448D3
+.tarjeta.color-secundario *  
+  color: #00104E !important
+.boton.color-acento-botones *, .color-acento-botones.boton--sm *
+  color: #ffff !important
+.color-rosadoD:before
+  background-color: #FCE5E9 !important
+.color-rosadoD i 
+  font-size: 2.5em
+  color: #9B1F36 !important
 
 .linea-tiempo-d.color-primario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
   color: $white
@@ -161,7 +187,7 @@
   background-color: #DEF8F8
 
 .color1
-  color: #FF8A5B
+  color:#9b1f36
 
 .verticalLine 
   border-right: 5px dotted #FFD494
@@ -209,3 +235,23 @@
 .botton--bg2
   background-color: #FFE8DE
   color: #000 !important
+
+.cajon-color-rosa
+  background-color: #FCE5E9
+.cajon-color-rosa:before
+  background-color: #9B1F36!important
+
+.cajon-color-verde
+  background-color: #DEF8F8
+.cajon-color-verde:before
+  background-color: #25CED1!important
+
+.cajon-color-verderojo
+  background-color: #DEF8F8
+.cajon-color-verderojo:before
+  background-color: #9B1F36!important
+
+.cajon-color-grisrojo
+  background-color: #DEE9F0
+.cajon-color-grisrojo:before
+  background-color: #9B1F36!important

@@ -27,7 +27,7 @@
         figure.mb-5
           img(src='@/assets/curso/tema_3/img_2.svg', alt='Texto que describa la imagen')
 
-    .cajon.color-secundario.p-4.mb-5(data-aos='fade-right')
+    .cajon.cajon-color-verde.p-4.mb-5(data-aos='fade-right')
       p Este aceite no es recomendado para transmisiones mecánicas o reductores industriales. Además, al reducir el desgaste evita que los equipos estén fuera de servicio a causa del mantenimiento, lo cual aumenta la productividad. Este producto es extremadamente estable y contiene agentes demulsificantes, inhibidores de herrumbre, corrosión y espumas, también crea una fuerte película y tiene propiedades excepcionales de antidesgaste y agentes demulsificantes.
 
     h5.mb-5.text-center(data-aos='fade-right') A continuación, se pueden observar los tipos de lubricación utilizados. 
@@ -123,14 +123,22 @@
           img(src='@/assets/curso/tema_3/img_12.png', alt='Texto que describa la imagen')
         h5 Lubricación
         p Finalmente, se procede a lubricar la máquina, respetando los requerimientos técnicos y los sistemas de lubricación.
-
-    .row.justify-content-center(data-aos='fade-left')
-      .col-lg-7
-        a.anexo.mb-4(:href="obtenerLink('/downloads/Manual_Tecnico_Lubricantes.pdf')" target="_blank")
-          .anexo__icono
-            img(src="@/assets/template/icono-pdf.svg")
-          .anexo__texto
-            p #[strong Anexo.] Se invita a revisar el material complementario: Manual técnico de lubricantes de Lubricantes Raloy. 
+     
+    .row.justify-content-around.align-items-center 
+      .col-lg-8
+        .tarjeta.color-secundario.p-3.mb-5
+          .row.justify-content-around.align-items-center
+            .col-3.col-sm-2.col-lg-1.d-none.d-lg-block
+              img(src="@/assets/curso/tema_3/pdf.svg")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  p #[b Anexo. ] 
+                    span Se invita a revisar el material complementario: Manual técnico de lubricantes de Lubricantes Raloy. 
+                .col-sm-auto
+                  a.boton.color-acento-botones.text-white(href="/downloads/Manual_Tecnico_Lubricantes.pdf" target="_blank")
+                    span.text-white Descargar
+                    i.fas.fa-download
     
 
 

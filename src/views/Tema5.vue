@@ -17,14 +17,14 @@
 
         p Según la filosofía TPM, mediante sistemas de mantenimiento preventivo eficaces se logra que las máquinas rara vez paren y no afecten las capacidades instaladas de las plantas de producción; si se cuentan con protocolos definidos para el plan de mantenimiento correctivo, la respuesta a un cese de actividad de máquina intempestivamente se podrá solucionar de manera rápida y con poca pérdida de tiempo. Cuando se implementa la filosofía TPM los accidentes de trabajo disminuyen debido a que se promueve orden, aseo y limpieza, lo mismo que la buena ubicación de herramientas y repuestos.
       
-    .cajon.color-acento-botones.p-4.mb-5(data-aos='fade-right')
+    .cajon.cajon-color-grisrojo.p-4.mb-5(data-aos='fade-right')
       .row
         .col-lg-8
           P
             strong Esta filosofía se vincula de manera directa con las herramientas de #[i Lean Manufacturing] y para implementarlo se requiere:
       .row.justify-content-center
         .col-lg-6
-          ul.lista-ul.color3
+          ul.lista-ul.color1
             li
               i.fas.fa-atom
               span.c1 Realizar un diagnóstico de la situación actual.
@@ -63,16 +63,27 @@
           img(src='@/assets/curso/tema_5/img_3.svg', alt='Texto que describa la imagen')
         p.mb-5 Se invita a profundizar a través del siguiente video sobre la metodología TPM para la realización de un mantenimiento productivo total:
 
-        .row.justify-content-center
-          .col-lg-8
-
-            a.anexo.mb-4.mb-lg-0.botton--bg2(href="https://www.youtube.com/watch?v=QdDPyNolNhk&ab_channel=GembaAcademyEspa%C3%B1ol" target="_blank")
-              .anexo__icono
-                img(src="@/assets/template/icono-link-1.svg")
-              .anexo__texto
-                p #[strong Enlace web.] Gemba Academy Español. (2018). TPM Mantenimiento productivo total. 
-
-
+        
+        
+ 
+        .row.justify-content-around.align-items-center 
+          .col-lg-10
+            .tarjeta.color-secundario.p-3.mb-5
+              .row.justify-content-around.align-items-center
+                .col-3.col-sm-2.col-lg-1.d-none.d-lg-block
+                  img(src="@/assets/curso/tema_4/video.svg")
+                .col
+                  .row.justify-content-between.align-items-center
+                    .col.mb-3.mb-sm-0
+                      p Se invita a profundizar a través del siguiente video sobre la metodología TPM para la realización de un mantenimiento productivo total:
+                      p.text-small #[b Enlace web. ] 
+                        span Gemba Academy Español. (2018). TPM Mantenimiento productivo total.  
+                    .col-sm-auto
+                      a.boton.color-acento-botones.text-white(href="https://www.youtube.com/watch?v=QdDPyNolNhk&ab_channel=GembaAcademyEspa%C3%B1ol" target="_blank")
+                        span.text-white Ver video
+                        i.fas.fa-video
+    
+      
 </template>
 
 <script>
