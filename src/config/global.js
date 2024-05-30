@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Planes de mantenimiento de maquinaria y equipos',
     descripcionCurso:
-      'El presente componente ilustra sobre la manera de diseñar e implementar un programa de mantenimiento de maquinaria y equipos de confección industrial, a través del conocimiento de los sistemas de funcionamiento de dichos equipos. También se evidencia la importancia de una gestión apropiada que permita el mejor aprovechamiento de las máquinas.',
+      'El siguiente componente ilustra cómo diseñar e implementar un programa de mantenimiento para maquinaria y equipos de confección industrial, mediante el conocimiento de los sistemas de funcionamiento de dichos equipos. Asimismo, se destaca la importancia de una gestión adecuada que permita aprovechar al máximo las máquinas.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -39,25 +39,21 @@ export default {
       },
       {
         nombreRuta: 'tema1',
-        icono: 'far fa-file-alt',
         numero: '1',
         titulo: 'Máquinas y herramientas para confección',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '1.1',
             titulo: 'Terminología técnica',
             hash: 't_1_1',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '1.2',
             titulo: 'Máquinas de confección',
             hash: 't_1_2',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '1.3',
             titulo:
               'Herramientas o equipos de mantenimiento de máquinas de coser',
@@ -67,19 +63,16 @@ export default {
       },
       {
         nombreRuta: 'tema2',
-        icono: 'far fa-file-alt',
         numero: '2',
         titulo: 'Mantenimiento de las máquinas de confección',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '2.1',
             titulo: 'Tipos de mantenimiento',
             hash: 't_2_1',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '2.2',
             titulo: 'Seguimiento a las máquinas y acciones de mantenimiento',
             hash: 't_2_2',
@@ -88,25 +81,21 @@ export default {
       },
       {
         nombreRuta: 'tema3',
-        icono: 'far fa-file-alt',
         numero: '3',
         titulo: 'Sistemas de lubricación en máquinas',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '3.1',
             titulo: 'Tipos de lubricación',
             hash: 't_3_1',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '3.2',
             titulo: 'Tipos de lubricantes',
             hash: 't_3_2',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '3.3',
             titulo: 'Proceso de lubricación de máquinas de coser ',
             hash: 't_3_3',
@@ -115,13 +104,11 @@ export default {
       },
       {
         nombreRuta: 'tema4',
-        icono: 'far fa-file-alt',
         numero: '4',
         titulo: 'Gestión del mantenimiento',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '4.1',
             titulo: 'Plan de mantenimiento',
             hash: 't_4_1',
@@ -130,7 +117,6 @@ export default {
       },
       {
         nombreRuta: 'tema5',
-        icono: 'far fa-file-alt',
         numero: '5',
         titulo:
           'Herramienta Total Productive Maintenance (TPM) - Mantenimiento Productivo Total',
@@ -138,28 +124,24 @@ export default {
       },
       {
         nombreRuta: 'tema6',
-        icono: 'far fa-file-alt',
         numero: '6',
         titulo: 'Guías y accesorios para la confección',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema7',
-        icono: 'far fa-file-alt',
         numero: '7',
         titulo: 'Mantenimiento y atención a problemas menores',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema8',
-        icono: 'far fa-file-alt',
         numero: '8',
         titulo: 'Buenas prácticas para el mantenimiento de máquinas',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema9',
-        icono: 'far fa-file-alt',
         numero: '9',
         titulo: 'Puesta a punto de la máquina y el puesto de trabajo',
         desarrolloContenidos: true,
@@ -193,11 +175,11 @@ export default {
         titulo: 'Referencias bibliográficas',
         nombreRuta: 'referencias',
       },
-      // {
-      //   icono: 'fas fa-file-pdf',
-      //   titulo: 'Descargar PDF',
-      //   download: 'downloads/prueba.pdf',
-      // },
+      {
+        icono: 'fas fa-file-pdf',
+        titulo: 'Descargar PDF',
+        download: 'downloads/prueba.pdf',
+      },
       {
         icono: 'fas fa-download',
         titulo: 'Descargar material',
@@ -211,12 +193,6 @@ export default {
     ],
   },
   complementario: [
-    {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
-    },
     {
       tema: '',
       referencia:
@@ -399,15 +375,14 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Maria Camila Garcia Santamaria',
-          cargo: 'Líder del equipo',
+          nombre: 'Milady Tatiana Villamil Castellanos',
+          cargo: 'Responsable del Ecosistema',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Rafael Neftalí Lizcano Reyes',
-          cargo: 'Responsable de Línea de Producción',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          nombre: 'Claudia Johanna Gómez Pérez',
+          cargo: 'Responsable de línea de producción',
+          centro: 'Regional Santander - Centro Agroturístico',
         },
       ],
     },
@@ -460,45 +435,19 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Francisco José Lizcano Reyes',
-          cargo: 'Responsable del equipo',
-          centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+          nombre: 'Julián Fernando Vanegas Vera',
+          cargo: 'Diseñador de contenidos digitales',
+          centro: 'Regional Santander - Centro Agroturístico',
         },
         {
-          nombre: 'Leyson Fabian Castaño Perez',
-          cargo: 'Soporte organizacional',
-          centro: 'Regional Tolima - Centro de Comercio y Servicios',
-        },
-        {
-          nombre: ['Eulises Orduz Amezquita'],
-          cargo: 'Diseño web',
-          centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
-        },
-        {
-          nombre: 'Ricardo Alonso González Vargas',
-          cargo: 'Desarrollo front-end',
-          centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
-        },
-        {
-          nombre: 'Jhon Edinson Castañeda Oviedo',
+          nombre: 'Leonardo Castellanos Rodriguez',
           cargo: 'Desarrollador Fullstack',
-          centro:
-            'Regional Distrito Capital - Centro de Gestión De Mercados, Logística y Tecnologías de la Información',
+          centro: 'Regional Santander - Centro Agroturístico',
         },
         {
-          nombre: 'Andrés Mauricio Santaella Ochoa',
-          cargo: 'Soporte front-end',
-          centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
-        },
-        {
-          nombre: 'Jenny Paola Montillo Gélvez',
-          cargo: 'Validación de diseño y contenido',
-          centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+          nombre: 'Maria Alejandra Vera Briceño',
+          cargo: 'Animadora y Productora Multimedia',
+          centro: 'Regional Santander - Centro Agroturístico',
         },
       ],
     },
@@ -506,9 +455,14 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Milady Tatiana Villamil Castellanos',
-          cargo: 'Validación y vinculación en plataforma LMS',
-          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+          nombre: 'Laura Paola Gelvez Manosalva',
+          cargo: 'Validadora de Recursos Educativos Digitales',
+          centro: 'Regional Santander - Centro Agroturístico',
+        },
+        {
+          nombre: 'Erika Fernanda Mejía Pinzón',
+          cargo: 'Evaluadora para Contenidos Inclusivos y Accesibles',
+          centro: 'Regional Santander - Centro Agroturístico',
         },
       ],
     },

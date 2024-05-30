@@ -13,6 +13,7 @@
 
     p(data-aos='fade-right') Las acciones que están encaminadas a la conservación de los equipos, máquinas y herramientas, en las empresas de confección, son denominadas acciones de mantenimiento. También tienen que ver con restaurar artículos o elementos, y dejarlos a punto para cumplir sus funciones. 
 
+
     p.mb-5(data-aos='fade-right') Para realizar el mantenimiento se requiere una serie de recursos relacionados con la parte técnica y administrativa. Estas actividades deben ser desarrolladas en orden lógico, y una de sus condiciones, y función principal, es que el equipo conserve un funcionamiento eficiente, seguro y que sus gastos sean racionales. 
 
     .cajon.cajon-color-rosa.p-4.mb-5(data-aos='fade-left')
@@ -27,45 +28,67 @@
         .hr.mb-3
         .row.justify-content-center
           .col-lg-11
-            ul.lista-ul--color
-              li 
-                i.fas.fa-atom
-                | Conservar el equipo de máquinas y herramientas, por lo menos el tiempo de vida para el cual están diseñadas, y ojalá que superen ese tiempo.
+            .row
+              .col-lg-1
+                ul.lista-ul--color
+                  li.justify-content-center
+                    i.fas.fa-atom
+              .col-lg-11
+                p.izq Conservar el equipo de máquinas y herramientas, por lo menos el tiempo de vida para el cual están diseñadas, y ojalá que superen ese tiempo.
         .hr.mb-3
         .row.justify-content-center
           .col-lg-11
-            ul.lista-ul--color
-              li 
-                i.fas.fa-atom
-                | Realizar acciones de prevención de daños, que van a obstaculizar el desarrollo normal de la planta.
+            .row 
+              .col-lg-1
+                ul.lista-ul--color
+                  li 
+                    i.fas.fa-atom
+              .col-lg-11
+                p.izq Realizar acciones de prevención de daños, que van a obstaculizar el desarrollo normal de la planta.
+
         .hr.mb-3
         .row.justify-content-center
           .col-lg-11
-            ul.lista-ul--color
-              li 
-                i.fas.fa-atom
-                | Corregir fallas que requieren una asistencia inmediata, para que las máquinas vuelvan a funcionar.
+            .row 
+              .col-lg-1
+                ul.lista-ul--color
+                  li 
+                    i.fas.fa-atom
+              .col-lg-11
+                p.izq Corregir fallas que requieren una asistencia inmediata, para que las máquinas vuelvan a funcionar.
+
         .hr.mb-3
         .row.justify-content-center
           .col-lg-11
-            ul.lista-ul--color
-              li 
-                i.fas.fa-atom
-                | Incluir dentro de acciones de mantenimiento no únicamente las referentes a las máquinas de la planta, sino también las referentes a las áreas locativas y a servicios como agua, luz, gas, etc.
+            .row
+              .col-lg-1
+                ul.lista-ul--color
+                  li 
+                    i.fas.fa-atom
+              .col-lg-11
+                p.izq Incluir dentro de acciones de mantenimiento no únicamente las referentes a las máquinas de la planta, sino también las referentes a las áreas locativas y a servicios como agua, luz, gas, etc.
+
         .hr.mb-3
         .row.justify-content-center
           .col-lg-11
-            ul.lista-ul--color
-              li 
-                i.fas.fa-atom
-                | Presentar informes a la gerencia, donde se hagan recomendaciones para realizar acciones que mejoren la estructura del plan de mantenimiento a todos los niveles.
+            .row 
+              .col-lg-1
+                ul.lista-ul--color
+                  li 
+                    i.fas.fa-atom
+              .col-lg-11
+                p.izq Presentar informes a la gerencia, donde se hagan recomendaciones para realizar acciones que mejoren la estructura del plan de mantenimiento a todos los niveles.
+
         .hr.mb-3
         .row.justify-content-center
           .col-lg-11
-            ul.lista-ul--color
-              li 
-                i.fas.fa-atom
-                | Administrar de manera idónea todos los recursos asignados a este departamento.
+            .row 
+              .col-lg-1
+                ul.lista-ul--color
+                  li 
+                    i.fas.fa-atom
+              .col-lg-11
+                p.izq Administrar de manera idónea todos los recursos asignados a este departamento.
         .hr.mb-3
 
       .col-lg-4(data-aos='fade-left')
@@ -73,6 +96,7 @@
           img(src='@/assets/curso/tema_2/img_2.png', alt='Texto que describa la imagen')
 
     p.mb-5(data-aos='fade-right') Todas las actividades del mantenimiento deben quedar registradas, para poder hacer seguimiento y evaluar el impacto en la productividad y en el gasto de recursos.
+
 
 
     h5.text-center.mb-5(data-aos='fade-left') Para realizar el mantenimiento es importante:
@@ -111,32 +135,37 @@
 
     p(data-aos='fade-right') De acuerdo con la naturaleza de la empresa, su tamaño, el equipo de máquinas y herramientas de las que dispone, y según las políticas administrativas que tiene establecidas, se determina de qué manera se implementará el mantenimiento. Estos no son excluyentes, muchos son complementarios y para realizar cualquiera de ellos es muy importante la definición de recursos a utilizar, los cuales, al final de la actividad, deben quedar registrados todos los resultados. 
 
-    p.mb-5(data-aos='fade-right') A continuación, se presentan algunos. 
+    p.mb-5(data-aos='fade-right') A continuación, se presentan algunos:
 
     LineaTiempoD.color-primario(data-aos='fade-left')
       .row(numero="1" titulo="Mantenimiento diario") 
         .col-lg-12
           p Se refiere a actividades orientadas a conservar las máquinas y herramientas de manera apropiada. Al referirse a realizar estas actividades con una frecuencia de 24 horas, aproximadamente, hay que tener en cuenta la carga de trabajo a la que están siendo sometidas, al tipo de tejido que están trabajando y la velocidad de costura a las que trabajan estas máquinas, eso hace que estén siendo sometidas a mayor o menor trabajo. 
-
           p Ahora se indican las actividades que se recomienda se realicen diario, de acuerdo con las anteriores consideraciones y, que en la mayoría de casos, las pueden realizar las mismas operarias u operarios.
-
           .cajon.color-primario.p-4.mb-5
             ul.lista-ul--color
               li 
                 i.lista-ul__vineta
                 | Una gota de aceite en el gancho o garfio, cada que se vaya a cambiar de bobina, excepto cuando la máquina es de lubricación automática.
+
               li 
                 i.lista-ul__vineta
                 | Hacer aseo, eliminando suciedades en los elementos que hacen parte del ajuste (dientes, planchuelas, bobinas, pies prensatelas).
+
               li 
                 i.lista-ul__vineta
-                | Revisar el flujo de aceite en el sistema de lubricación y, de ser necesario, avisar o corregir.
+                |Revisar el flujo de aceite en el sistema de lubricación y, de ser necesario, avisar o corregir.
+
               li 
                 i.lista-ul__vineta
                 | Es recomendable dejar un pedazo de tela debajo del pie prensatelas y la aguja clavada.
+
               li 
                 i.lista-ul__vineta
                 | Al terminar la jornada tapar la máquina y, si es posible, desenchufarla.
+
+
+
               li 
                 i.lista-ul__vineta
                 | Al iniciar la jornada verificar que el pedal no esté acelerado, la gravedad hace que el pedal caiga y al prender la máquina se acelere y queme el motor.
@@ -149,11 +178,11 @@
 
           .row.justify-content-center
             .col-lg-8
-              .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+              .titulo-sexto.color-acento-contenido
                 h5 Figura 20.
                 span Mantenimiento a máquinas
               figure
-                img(src='@/assets/curso/tema_2/img_6.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/tema_2/img_6.png', alt='maquinas')
 
       .row(numero="2" titulo="Mantenimiento preventivo") 
         .col-lg-8
@@ -162,17 +191,17 @@
           p En las máquinas planas se revisa la planchuela, los dientes, la caja bobina o canillero, y la lanzadera; en las fileteadoras sencillas o con puntada de seguridad, se revisan sus placas frontales y laterales, como es una máquina que realiza cortes de tela, se debe revisar las cuchillas y retirar todas las suciedades y pelusas que acumula; en las planchas se deben desmontar las bases y revisar los conductos por donde va el agua y revisar los tanques o calderines que producen el vapor. Además, las máquinas tienen identificados los puntos por donde se les debe proveer el lubricante y cuando se termina el mantenimiento se debe ensayar cada máquina para asegurar que quedó funcionando después de la intervención.
         .col-lg-3.mb-3
           figure
-            img(src='@/assets/curso/tema_2/img_7.svg', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/tema_2/img_7.svg', alt='mantenimiento preventivo')
     
         p También es importante mantener en inventario las piezas pequeñas que requieran ser sustituidas de manera periódica para evitar que se detenga la producción, este ejercicio debe quedar registrado. En resumen, todas las actividades enfocadas a evitar que las máquinas dejen de funcionar de manera intempestiva, mejor dicho, todo lo que se haga para que el equipo no deje de funcionar, se puede catalogar como mantenimiento preventivo.
 
         .row.justify-content-center
           .col-lg-11
-            .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-              h5 Figura 21.
+            .titulo-sexto.color-acento-contenido
+              h5 Tabla 5.
               span Ficha técnica de mantenimiento preventivo
             figure
-              img(src='@/assets/curso/tema_2/img_8.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/tema_2/img_8.png', alt='preventivo')
               figcaption Nota. Tomada de Cabanillas (2018)
 
       .row(numero="3" titulo="Mantenimiento correctivo")   
@@ -181,11 +210,11 @@
 
         .row.justify-content-center
           .col-lg-12
-            .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-              h5 Figura 22.
+            .titulo-sexto.color-acento-contenido
+              h5 Tabla 6.
               span Ficha técnica mantenimiento correctivo
             figure
-              img(src='@/assets/curso/tema_2/img_9.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/tema_2/img_9.png', alt='correctivo')
               figcaption Nota. Tomada de Cabanillas (2018)
 
       .row(numero="4" titulo="Mantenimiento programado")
@@ -194,7 +223,7 @@
 
         .col-lg-6
           figure
-            img(src='@/assets/curso/tema_2/img_10.png', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/tema_2/img_10.png', alt='programado')
 
       .row(numero="5" titulo="Mantenimiento general")
         .col-lg-12
@@ -218,7 +247,7 @@
                           span Durán, P., D. (2013). Preparación de máquinas de corte, ensamblado y acabado. IC Editorial.
                       .col-sm-auto
                         a.boton.color-acento-botones.text-white(href="https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/43646" target="_blank")
-                          span.text-white Ver enlace
+                          span.text-white Ir al sitio
                           i.fas.fa-link
             
             
@@ -232,7 +261,7 @@
     .row.justify-content-center(data-aos='fade-left')
       .col-lg-10
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-          h5 Tabla 5.
+          h5 Tabla 7.
           span Formato para reglamentar actividades de mantenimiento
         .tabla-a.color-acento-contenido.mb-5 
           table

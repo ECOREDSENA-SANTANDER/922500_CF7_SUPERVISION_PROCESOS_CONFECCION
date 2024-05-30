@@ -15,8 +15,8 @@
       
           figure(data-aos="fade-right").py-2
             .video.mb-1
-              iframe(width="1280" height="720" src="https://youtube.com/embed/oRpwVDaJc8I" title="mantenimiento de maquinaria y equipos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-            figcaption Video. mantenimiento de maquinaria y equipos
+              iframe(width="1280" height="720" src="https://youtube.com/embed/2Aa8iCb_Zpo" title="mantenimiento de maquinaria y equipos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            figcaption Fuente: SENA 2021
       
 
 </template>

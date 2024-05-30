@@ -12,6 +12,7 @@
       .col-lg-7(data-aos='fade-right')
         p Existen situaciones con las máquinas y herramientas, dentro de las plantas de confección, que no ameritan una asistencia de un personal muy técnico, cuyo tiempo de labor debe ser aprovechado de mejor manera. Estas situaciones menores pueden ser atendidas por otro personal dentro de la organización, incluso personal operativo. A veces se pierden tiempos de los equipos de producción, y cuando estos atienden el asunto se establece que la solución a dicho problema la puede resolver una persona que, aunque no tenga una formación técnica amplia, puede por medio de talleres o formación corta adquirir las competencias necesarias para resolver este tipo de problemas leves o menores.
 
+
         p Se entiende que cuando una máquina está parada y deja de producir, todo el presupuesto de producción, y por supuesto el de ventas, se afecta; en las empresas de confección el presupuesto destinado a la mano de obra para atender las averías de las máquinas es muy preciso, y el tiempo debe ser utilizado de la mejor manera. El personal operativo, con una instrucción adecuada de concentración, enfoque en el trabajo y mediante talleres de capacitación puede atender casos donde no sea necesaria la presencia de un técnico calificado. 
       .col-lg-5.d-flex(data-aos='fade-left')
         figure.mb-5
@@ -38,7 +39,7 @@
             i.fas.fa-quote-right.d-flex.justify-content-end
 
     .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-      h5 Tabla 5.
+      h5 Tabla 8.
       span Mantenimiento y atención a problemas menores
     .tabla-a.color-acento-contenido.mb-5(data-aos='fade-right')
       table

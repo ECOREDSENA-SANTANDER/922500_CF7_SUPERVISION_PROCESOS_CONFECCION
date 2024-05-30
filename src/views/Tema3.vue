@@ -13,6 +13,7 @@
 
     p(data-aos='fade-left') La lubricación es uno de los procesos más importantes a tener en cuenta para mantener nuestras máquinas en óptimas condiciones, las máquinas están conformadas por una serie de piezas metálicas que, en su proceso productivo, generan un movimiento continuo y un roce permanente generando una fricción, por lo tanto, la película de lubricante evita el desgaste y el calentamiento de forma excesiva.
 
+
     p(data-aos='fade-left') Los sistemas de lubricación se designan como el recorrido del aceite por las distintas piezas de la máquina, cuya función es proveer de sustancias lubricantes entre piezas móviles mitigando la fricción entre ellas, generalmente están conformados por un control o temporizador, bomba automática o manual y una línea de suministro. En los talleres textiles, los sistemas de lubricación que intervienen generalmente son la automática, por mecha y manual.
 
     separador
@@ -22,7 +23,7 @@
 
     .row
       .col-lg-8(data-aos='fade-right')
-        p Según la American Petroleum Co. Inc. (2012), los aditivos de antidesgaste permiten aumentar las posibles aplicaciones de lubricación en mayor cantidad de máquinas, y son utilizados, principalmente, en máquinas de coser, al igual que en maquinarias de precisión de la industria textil, industria de confección, ejes, deslizadoras, máquinas de oficina, carriles de impresoras y mangas de ejes. Por su cuerpo liviano y claro tiene extraordinaria lubricidad y no crean goma; además, al utilizarlo en metal impedirá el desarrollo de herrumbre en las cerraduras, bisagras, tuercas, etc.; por su alta pureza es biodegradable y son totalmente lavables en caso de provocar manchas en los tejidos, telas, hilos, etc.
+        p Según la #[em American Petroleum Co. Inc. (2012)], los aditivos de antidesgaste permiten aumentar las posibles aplicaciones de lubricación en mayor cantidad de máquinas, y son utilizados, principalmente, en máquinas de coser, al igual que en maquinarias de precisión de la industria textil, industria de confección, ejes, deslizadoras, máquinas de oficina, carriles de impresoras y mangas de ejes. Por su cuerpo liviano y claro tiene extraordinaria lubricidad y no crean goma; además, al utilizarlo en metal impedirá el desarrollo de herrumbre en las cerraduras, bisagras, tuercas, etc.; por su alta pureza es biodegradable y son totalmente lavables en caso de provocar manchas en los tejidos, telas, hilos, etc.
       .col-lg-4(data-aos='fade-left')
         figure.mb-5
           img(src='@/assets/curso/tema_3/img_2.svg', alt='Texto que describa la imagen')
@@ -30,7 +31,7 @@
     .cajon.cajon-color-verde.p-4.mb-5(data-aos='fade-right')
       p Este aceite no es recomendado para transmisiones mecánicas o reductores industriales. Además, al reducir el desgaste evita que los equipos estén fuera de servicio a causa del mantenimiento, lo cual aumenta la productividad. Este producto es extremadamente estable y contiene agentes demulsificantes, inhibidores de herrumbre, corrosión y espumas, también crea una fuerte película y tiene propiedades excepcionales de antidesgaste y agentes demulsificantes.
 
-    h5.mb-5.text-center(data-aos='fade-right') A continuación, se pueden observar los tipos de lubricación utilizados. 
+    h5.mb-5.text-center(data-aos='fade-right') A continuación, se pueden analizar los tipos de lubricación utilizados. 
 
     .row.justify-content-center
       .col-lg-10
@@ -39,9 +40,8 @@
           .tarjeta.color-fondo
             .p-4(data-aos='fade-left')
               h2 Lubricación automática
-              p Está implementada a través del bombeo de grasa o aceite desde el reservorio central a las diferentes zonas de lubricación de forma automática, está basada en los requerimientos técnicos especificados por los fabricantes de maquinarias.
-
-              p.mb-0 Es aplicada a máquinas industriales caracterizadas por un trabajo continuo a gran velocidad, estas máquinas están equipadas de una bomba propulsora de aceite que mueve el lubricante por gravedad.
+              P Está implementada a través del bombeo de grasa o aceite desde el reservorio central a las diferentes zonas de lubricación de forma automática, está basada en los requerimientos técnicos especificadas por los fabricantes de maquinarias.
+              P Es aplicada a máquinas industriales caracterizadas por un trabajo continuo a gran velocidad, estas máquinas están equipadas de una bomba propulsora de aceite que mueve el lubricante por gravedad.
         
         .tarjeta-avatar-b.mb-5
           img(src='@/assets/curso/tema_3/img_4.svg' alt='AvatarTop' data-aos='fade-right')
@@ -68,17 +68,18 @@
       .col-lg-6(data-aos='fade-right')
         .tarjeta-avatar-b.mb-5
           img(src='@/assets/curso/tema_3/img_6.svg' alt='AvatarTop')
-          .tarjeta.tarjeta--bg1
-            .p-4
-              h2 Lubricantes por aceite
-              p Son altamente utilizados en la confección, pues ceden bien al calor y crean una fina capa generando una total cobertura y capacidad de fluencia. 
-              p Son utilizados en piezas de alta temperatura o revoluciones de fricción.
+          .tarjeta.tarjeta--bg1.tar-av2
+            .p-3
+              h2.left Lubricantes por aceite
+              p.left Son altamente utilizados en la confección, pues ceden bien al calor y crean una fina capa generando una total cobertura y capacidad de fluencia. 
+              p.left Son utilizados en piezas de alta temperatura o revoluciones de fricción.
+     
       .col-lg-6.d-flex(data-aos='fade-left')
         .tarjeta-avatar-b.mb-5
           .tarjeta.color-fondo.tar-av
-            .p-4
-              h2 Lubricantes por grasa
-              p Conformados por un aceite base ligado por un espesante que garantiza permanencia en el punto de lubricación, posibilitando una protección que sella las piezas de la fricción, el desgate e influencias de humedad o sustancias extrañas.
+            .p-3
+              h2.left Lubricantes por grasa
+              p.left Conformados por un aceite base ligado por un espesante que garantiza permanencia en el punto de lubricación, posibilitando una protección que sella las piezas de la fricción, el desgate e influencias de humedad o sustancias extrañas.
           img(src='@/assets/curso/tema_3/img_7.svg' alt='AvatarTop')
 
     .row
@@ -87,14 +88,14 @@
           img(src='@/assets/curso/tema_3/img_8.svg' alt='AvatarTop')
           .tarjeta.color-fondo
             .p-4
-              h2 Lubricantes de aire / aceite
-              p Basado en una nueva tecnología, que genera una corriente de aire, que posibilita la refrigeración y lubricación a partir de partículas de aceite que recubren las partes.
+              h2.left Lubricantes de aire / aceite
+              p.left Basado en una nueva tecnología, que genera una corriente de aire, que posibilita la refrigeración y lubricación a partir de partículas de aceite que recubren las partes.
       .col-lg-6.d-flex(data-aos='fade-left')
         .tarjeta-avatar-b.mb-5
           .tarjeta.tarjeta--bg1.tar-av
             .p-4
-              h2 Lubricantes secos
-              p Usados con poca frecuencia en las confecciones por el tipo de máquina que se utiliza, pero son lubricantes sólidos en polvo, lacas o en películas semejantes a la cera.
+              h2.left Lubricantes secos
+              p.left Usados con poca frecuencia en las confecciones por el tipo de máquina que se utiliza, pero son lubricantes sólidos en polvo, lacas o en películas semejantes a la cera.
           img(src='@/assets/curso/tema_3/img_9.svg' alt='AvatarTop')
 
     separador
@@ -134,7 +135,7 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   p #[b Anexo. ] 
-                    span Se invita a revisar el material complementario: Manual técnico de lubricantes de Lubricantes Raloy. 
+                    span  Se invita a revisar el material complementario: Manual técnico de lubricantes de Lubricantes Raloy. 
                 .col-sm-auto
                   a.boton.color-acento-botones.text-white(href="/downloads/Manual_Tecnico_Lubricantes.pdf" target="_blank")
                     span.text-white Descargar
