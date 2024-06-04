@@ -178,11 +178,7 @@
 
           .row.justify-content-center
             .col-lg-8
-              .titulo-sexto.color-acento-contenido
-                h5 Figura 20.
-                span Mantenimiento a máquinas
-              figure
-                img(src='@/assets/curso/tema_2/img_6.png', alt='maquinas')
+              img(src='@/assets/curso/tema_2/img_6.png', alt='maquinas')
 
       .row(numero="2" titulo="Mantenimiento preventivo") 
         .col-lg-8

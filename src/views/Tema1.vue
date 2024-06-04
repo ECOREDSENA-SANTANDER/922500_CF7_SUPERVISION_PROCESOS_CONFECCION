@@ -61,36 +61,29 @@
       .py-4.py-md-5(titulo="Ajuste" :icono="require('@/assets/curso/tema_1/img_4.svg')")
         p.mb-5 En la industria de la moda hay gran cantidad de diseños en múltiples tejidos y con gran variedad de costuras. En esa parte las diseñadoras aprovechan todos los avances tecnológicos que en las maquinarias, costuras, guías y aditamentos se han venido implementando. Además, saber combinar textiles, agujas, dientes, pie prensatelas, hilos y demás, es una virtud que se debe tener en cuenta para sacar adelante los proyectos de manera eficiente, a eso se le llama combinación de costura. El ajuste, entonces, se podría definir como los elementos que posee la máquina y que se relacionan de manera directa con los tejidos: aguja, prensatelas, dientes y planchuela. Existen ajustes, livianos, semipesados y pesados que se utilizan de acuerdo con los tejidos que se van a trabajar: telas livianas = ajuste liviano, y así sucesivamente.
 
-        .row
+        .row.justify-center
           .col-lg-6.mb-5
             .titulo-sexto.color-acento-contenido(data-aos='fade-right')
               h5 Figura 1.
               span.text-small Elementos que componen el ajuste: pie prensatelas, dientes, planchuela y agujas
             figure
-              img(src='@/assets/curso/tema_1/img_5.png', alt=': La imagen presenta una foto donde se aprecian los diferentes elementos de la máquina de coser que se encuentran en contacto con la tela: pie prénsatelas, dientes, planchuela y agujas.')
+              img(src='@/assets/curso/tema_1/img_5.png', alt=': La imagen presenta una foto donde se aprecian los diferentes elementos de la máquina de coser que se encuentran en contacto con la tela: pie prénsatelas, dientes, planchuela y agujas. Se aprecia cómo los hilos están enhebrados a través de estos componentes, preparados para iniciar el proceso de costura.')
               figcaption Nota. Tomada de https://pixabay.com/images/id-1737773/
-          .col-lg-6
-            .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-              h5 Figura 2.
-              span.text-small Planchuela y dientes
-            figure
-              img(src='@/assets/curso/tema_1/img_6.png', alt='Planchuela y dientes')
-              figcaption Nota. Tomada de Amazon.com (s.f.)
-
+          
       .py-4.py-md-5(titulo="Bobina o canillero" :icono="require('@/assets/curso/tema_1/img_7.svg')")
         p.mb-5 Es una caja o compartimiento donde se colocan los carreteles que contienen el hilo que, al ser contactados con el hilo que trae la aguja, forman la lazada. También se conoce este accesorio con el nombre de #[b canillero], o #[b portabobina.]
 
         .row
           .col-lg-6.mb-5
             .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-              h5 Figura 3.
+              h5 Figura 2.
               span Bobinas
             figure
               img(src='@/assets/curso/tema_1/img_8.png', alt='Fotografía de dos bobinas vacías.')
               figcaption Nota. Tomada de Amazon.com (s.f.)
           .col-lg-6
             .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-              h5 Figura 4.
+              h5 Figura 3.
               span Gancho de máquina plana de 2 agujas
             figure
               img(src='@/assets/curso/tema_1/img_9.png', alt='Fotografía de un carrete para maquina plana que se encuentra vacío')
@@ -106,14 +99,14 @@
         .row
           .col-lg-6.mb-5
             .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-              h5 Figura 5.
+              h5 Figura 4.
               span Paño de agujas
             figure
               img(src='@/assets/curso/tema_1/img_11.png', alt='Foto de dos empaques contenedores de agujas')
               figcaption Nota. Tomada de Amazon.com (s.f.)
           .col-lg-6
             .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-              h5 Figura 6.
+              h5 Figura 5.
               span La aguja y sus partes
             figure
               img(src='@/assets/curso/tema_1/img_12.png', alt='La figura presenta las partes de la aguja: punta, ojo, canal corto, asta, cabo y tope. Adicionalmente, presenta otro tipo de aguja, la cual cuenta con rebaje y canal largo.')
@@ -142,7 +135,7 @@
             p El diente, para poder desplazar el material, debe sujetarlo y esta función la realiza con la parte superior que hace contacto con la tela en el momento que comienza a transportarlo, por efecto de la fricción la tela se incrusta entre la separación de los dientes y es así como este desplaza el material o lo que se llama arrastre. Cuando se habla de arrastre se hace referencia a una pieza dentada que se sitúa en la parte inferior de la máquina, concretamente, debajo del pie del prensatelas. Se trata de una pieza de gran importancia, ya que se encarga de estirar la tela para evitar errores en la costura.
           .col-lg-6
             .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-              h5 Figura 7.
+              h5 Figura 6.
               span Pieza dentada (dientes)
             figure
               img(src='@/assets/curso/tema_1/img_14.png', alt='Fotografía de una pieza dentada acompañada de una planchuela.')
@@ -153,21 +146,21 @@
             p Para que la tela quede firme y permita que la aguja haga su función, o sea realizar la costura, se coloca un accesorio que esté ubicado sobre la planchuela con posibilidad de sostener el tejido o elevarse para permitir sacarlo. Este accesorio viene de varios tipos para utilizar de acuerdo con la costura, por esta razón está provisto de diferentes guías que ayudan a construir costuras rectas y a la distancia requerida.
           .col-lg-6
             .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-              h5 Figura 8.
+              h5 Figura 7.
               span Pie prensatelas
             figure
               img(src='@/assets/curso/tema_1/img_16.png', alt='Fotografía de dos prensatelas')
               figcaption Nota. Tomada de Amazon.com (s.f.)
       .py-4.py-md-5(titulo="Lazada" :icono="require('@/assets/curso/tema_1/img_17.svg')")  
-        .row
-          .col-lg-7
+        .row.justify-center
+          .col-lg-10
             p Costura que se forma cuando el hilo de la aguja interactúa con el hilo de la bobina o de abajo, formando una trenza.
 
-            p.mb-5 Ahora, se sugiere observar el siguiente video sobre la formación de la lazada: 
+            p.mb-5 El siguiente video presenta la manera en que se forma la lazada.
  
             .tarjeta.color-secundario.p-4.mb-5
               .row.justify-content-around.align-items-center
-                .col-3.col-sm-2.col-lg-2.d-none.d-lg-block
+                .col-3.col-sm-2.col-lg-1.d-none.d-lg-block
                   img(src="@/assets/curso/tema_1/video.svg")
                 .col
                   .row.justify-content-between.align-items-center
@@ -179,13 +172,6 @@
                           span Ir al video
                           i.fas.fa-video
            
-          .col-lg-5
-            .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-              h5 Figura 9.
-              span Lazada
-            figure
-              img(src='@/assets/curso/tema_1/img_18.png', alt='Lanzada')
-              figcaption Nota. Tomada del video cómo funciona una máquina de coser y forma la puntada. 
 
     separador
 
@@ -311,7 +297,7 @@
                   .row.justify-content-center
                     .col-lg-10
                       figure
-                        img.img-a(src='@/assets/curso/tema_1/img_19.png', alt='Lanzada')
+                        img.img-a(src='@/assets/curso/tema_1/img_19.png', alt='La imagen presenta una tabla que clasifica diferentes tipos de máquinas utilizadas en procesos industriales o de confección en cuatro categorías: Planas, Fileteadoras, Collarín y Especiales. En la categoría de Planas se incluyen máquinas como la plana posicionadora, plana zigzag y dos agujas ecualizarle. Las Fileteadoras abarcan máquinas como la fileteadora zurcidora y la fileteadora de 3, 4 y 5 hilos. La categoría de Collarín incluye máquinas como la cama plana o sesgadoras y la dobladilladora automática de mangas. Finalmente, en las Especiales se encuentran la botonadora, presilladora, ribeteadora, cerradora de codo, multiguías, ojaladora de lágrima, entre otras.')
 
                   .row.justify-content-center
                     .col-lg-10
@@ -695,7 +681,7 @@
           h5 Tabla 2.
           span Ejemplo de ficha técnica
         figure
-          img(src='@/assets/curso/tema_1/img_38.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/tema_1/img_38.png', alt='La ficha técnica de la máquina plana Singer 591 D300 de "Confecciones Badalam LTDA" indica que es adecuada para coser prendas livianas y medias, ideal para líneas de producción debido a su alta velocidad y eficiencia. Pesa 29 kg, mide 49 cm de alto, 29.5 cm de ancho y 59.3 cm de largo, con una potencia de 250 W, voltaje de 110/220 V y velocidad de 3500 RPM. El mantenimiento debe realizarse cada 3 meses y se recomienda usar equipo de protección y mantener el área limpia. El fabricante es Singer, con contacto en info@singer.com.co.')
           figcaption Nota. Tomada de Confecciones Badaam Ltda. (2020)
 
     h3(data-aos='fade-left') Fichas técnicas de seguimiento y mantenimiento de las máquinas
@@ -703,11 +689,11 @@
 
     p(data-aos='fade-right') Debe, por lo menos, traer información completa de la máquina en donde se incluyan sus características, la sección o área a que pertenece, el tipo de mantenimiento que se le realiza, la urgencia de la intervención, la descripción del servicio, las fechas, las personas responsables de solicitar, autorizar y revisar el servicio, entre otros aspectos.
 
-    h4.mb-5(data-aos='fade-right') A continuación, se muestra un ejemplo de un documento similar.
+    h4.mb-5(data-aos='fade-right') A continuación, se presenta un documento p ara ejemplificar la ficha de seguimiento y mantenimiento:
 
     .row.justify-content-center(data-aos='fade-left')
       .col-lg-11
-        .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+        .titulo-sexto.color-acento-contenido(data-aos='fade-right',alt ='La imagen muestra una ficha de seguimiento y mantenimiento de la "Empresa de Confecciones El Ensamble". La ficha incluye campos para registrar información sobre la máquina, como la fecha, marca, referencia, serie, sección, proveedor, catálogo, número, herramientas, número de motor y color, así como observaciones. También cuenta con una tabla para anotar la fecha, la situación actual del diagnóstico, la intervención, el proveedor, la situación final y observaciones. Al final, hay campos para la autorización, la ejecución, la revisión y observaciones adicionales.' )
           h5 Tabla 3.
           span Ficha de seguimiento y mantenimiento
         .tabla-a.color-acento-contenido.mb-5 
@@ -826,7 +812,7 @@
     .py-4
     .row.justify-content-center(data-aos='fade-left')
       .col-lg-11
-        .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+        .titulo-sexto.color-acento-contenido(data-aos='fade-right', alt ='La imagen muestra la "Tabla 4. Tecnologías Implementadas en las máquinas", que compara actividades en máquinas convencionales y electrónicas o posicionadoras. Para rematar la costura, en las máquinas convencionales se usa un elemento al lado derecho llamado rematador, mientras que en las electrónicas se hace desde el pedal, ahorrando tiempo. Para cortar el hilo, en las convencionales se realiza manualmente con un punzón o tijeras, mientras que en las electrónicas se activa un mecanismo desde el pedal que corta el hilo automáticamente. Para levantar el pie prensatelas, en las convencionales se usa una rodilla palanca, y en las electrónicas se hace desde el pedal, ahorrando tiempo y reduciendo la fatiga del operador.')
           h5 Tabla 4.
           span Tecnologías implementadas en las máquinas 
         .tabla-a.mb-5
