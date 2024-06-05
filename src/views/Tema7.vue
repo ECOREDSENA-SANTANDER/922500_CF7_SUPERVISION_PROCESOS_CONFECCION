@@ -41,7 +41,7 @@
     .titulo-sexto.color-acento-contenido(data-aos='fade-right')
       h5 Tabla 8.
       span Mantenimiento y atención a problemas menores
-    .tabla-a.color-acento-contenido.mb-5(data-aos='fade-right')
+    .tabla-a.color-acento-contenido.mb-5(data-aos='fade-right', alt ='La tabla presenta algunos problemas comunes de las maquinas de confecciones con sus respectivas causas y posibles acciones para solucionarlo.')
       table
         thead
           tr

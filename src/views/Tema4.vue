@@ -20,9 +20,7 @@
       .col-lg-4(data-aos='fade-left')
         figure.mb-5
           img(src='@/assets/curso/tema_4/img_1.svg', alt='administracion del mantenimiento')
-        .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-          h5 Figura 21.
-          span Administración del mantenimiento
+      
     .row.justify-content-around.align-items-center 
       .col-lg-10
         .tarjeta.color-secundario.p-3.mb-5
@@ -170,12 +168,12 @@
     .row.justify-content-center.mb-5(data-aos='fade-left')
       .col-lg-12 
         figure
-          img(src='@/assets/curso/tema_4/img_5.svg', alt='diagrama del plan')
+          img(src='@/assets/curso/tema_4/img_5.svg', alt='La imagen muestra un diagrama de un plan de mantenimiento, comenzando con un círculo rojo etiquetado como "INICIO". El diagrama sigue un flujo hacia la derecha, con un cuadro central superior que dice "Tipo de proceso". Desde allí, se ramifican varias actividades de mantenimiento en cuadros turquesa, como "Consultar y utilizar la información", "Diagnosticar el estado de los equipos", "Analizar el desgaste de los elementos mecánicos", entre otros. Estas actividades están alineadas en dos columnas, y conectan finalmente con dos cuadros rosados al final del diagrama, "Registrar y tabular información" y "Verificar resultados", marcando el "FIN" del proceso. Además, hay una imagen de una mujer con gafas y una sonrisa, sosteniendo un bolígrafo, situada en la parte inferior izquierda del diagrama.')
     
     .row.align-items-center.justify-content-center.mb-5(data-aos='fade-left')
       .col-lg-4
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-          h5 Figura 22.
+          h5 Figura 8.
           span | Diagrama de plan de mantenimiento  
 
     h4(data-aos='fade-left') Responsabilidades del plan de mantenimiento

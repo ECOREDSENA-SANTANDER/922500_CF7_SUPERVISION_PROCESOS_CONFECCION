@@ -75,37 +75,37 @@
     .row.justify-content-center(data-aos='fade-right')
       .col-lg-8
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-          h5 Figura 24.
+          h5 Figura 10.
           span Guías
         .row.justify-content-center
           .col-lg-3
             figure.mb-3
-              img.img-a(src='@/assets/curso/tema_6/img_2.png', alt='trebol')
+              img.img-a(src='@/assets/curso/tema_6/img_2.png', alt='en la figura se presentan las guías mas utilizadas: guia trebol, guia en forma de T, guía de rodillo, guía de tope para fileteadora, dobladillador sencillo, guía tipo avión, guía tubular.')
             h5.text-center Guía trébol
           .col-lg-3
             figure.mb-3
-              img.img-a(src='@/assets/curso/tema_6/img_3.png', alt='forma T')
+              img.img-a(src='@/assets/curso/tema_6/img_3.png', alt='en la figura se presentan las guías mas utilizadas: guia trebol, guia en forma de T, guía de rodillo, guía de tope para fileteadora, dobladillador sencillo, guía tipo avión, guía tubular.')
             h5.text-center Guía en forma de T
           .col-lg-3
             figure.mb-3
-              img.img-a(src='@/assets/curso/tema_6/img_4.png', alt='Rodillo')
+              img.img-a(src='@/assets/curso/tema_6/img_4.png', alt='en la figura se presentan las guías mas utilizadas: guia trebol, guia en forma de T, guía de rodillo, guía de tope para fileteadora, dobladillador sencillo, guía tipo avión, guía tubular.')
             h5.text-center  Guía de rodillo
           .col-lg-3
             figure.mb-3
-              img.img-a(src='@/assets/curso/tema_6/img_5.png', alt='fileteadora')
+              img.img-a(src='@/assets/curso/tema_6/img_5.png', alt='en la figura se presentan las guías mas utilizadas: guia trebol, guia en forma de T, guía de rodillo, guía de tope para fileteadora, dobladillador sencillo, guía tipo avión, guía tubular.')
             h5.text-center Guía de tope para fileteadora
         .row.justify-content-center
           .col-lg-3
             figure.mb-3
-              img.img-a(src='@/assets/curso/tema_6/img_6.png', alt='dobladillador sencillo')
+              img.img-a(src='@/assets/curso/tema_6/img_6.png', alt='en la figura se presentan las guías mas utilizadas: guia trebol, guia en forma de T, guía de rodillo, guía de tope para fileteadora, dobladillador sencillo, guía tipo avión, guía tubular.')
             h5.text-center Dobladillador sencillo
           .col-lg-3
             figure.mb-3
-              img.img-a(src='@/assets/curso/tema_6/img_7.png', alt='tipo avion')
+              img.img-a(src='@/assets/curso/tema_6/img_7.png', alt='en la figura se presentan las guías mas utilizadas: guia trebol, guia en forma de T, guía de rodillo, guía de tope para fileteadora, dobladillador sencillo, guía tipo avión, guía tubular.')
             h5.text-center Guía tipo avión
           .col-lg-3
             figure.mb-3
-              img.img-a(src='@/assets/curso/tema_6/img_8.png', alt='tubular')
+              img.img-a(src='@/assets/curso/tema_6/img_8.png', alt='en la figura se presentan las guías mas utilizadas: guia trebol, guia en forma de T, guía de rodillo, guía de tope para fileteadora, dobladillador sencillo, guía tipo avión, guía tubular.')
             h5.text-center Guía tubular
         
         
