@@ -11,7 +11,7 @@
 
     .row.justify-content-center.align-items-center.mb-4(data-aos="fade-left")
         .col-lg-12.col-10
-          p En el siguiente video se presentará en que consisten lo planes de mantenimiento de maquinaria y equipos.
+          p En el siguiente video, se presentan diferentes planes de mantenimiento de maquinas y equipos de confección y la importancia de este tipo de procesos para una planta de producción de confecciones. 
       
           figure(data-aos="fade-right").py-2
             .video.mb-1
