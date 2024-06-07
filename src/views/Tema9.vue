@@ -73,11 +73,7 @@
       .col-lg-8(data-aos='fade-left')
         figure.mb-5
           img(src='@/assets/curso/tema_9/img_3.png', alt='maquina coser')
-        .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-          h5 Figura 26.
-          span Imagen de una puesta a punto de una máquina de coser
-        p.mb-5 Para concluir este tema, se invita a explorar el siguiente video de la puesta a punto de una máquina de coser, en este caso de la marca Pfaff.
-
+ 
 
     .row.justify-content-around.align-items-center 
       .col-lg-10

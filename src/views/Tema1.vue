@@ -61,7 +61,7 @@
       .py-4.py-md-5(titulo="Ajuste" :icono="require('@/assets/curso/tema_1/img_4.svg')")
         p.mb-5 En la industria de la moda hay gran cantidad de diseños en múltiples tejidos y con gran variedad de costuras. En esa parte las diseñadoras aprovechan todos los avances tecnológicos que en las maquinarias, costuras, guías y aditamentos se han venido implementando. Además, saber combinar textiles, agujas, dientes, pie prensatelas, hilos y demás, es una virtud que se debe tener en cuenta para sacar adelante los proyectos de manera eficiente, a eso se le llama combinación de costura. El ajuste, entonces, se podría definir como los elementos que posee la máquina y que se relacionan de manera directa con los tejidos: aguja, prensatelas, dientes y planchuela. Existen ajustes, livianos, semipesados y pesados que se utilizan de acuerdo con los tejidos que se van a trabajar: telas livianas = ajuste liviano, y así sucesivamente.
 
-        .row.justify-center
+        .row.justify-content-center
           .col-lg-6.mb-5
             .titulo-sexto.color-acento-contenido(data-aos='fade-right')
               h5 Figura 1.
@@ -152,7 +152,7 @@
               img(src='@/assets/curso/tema_1/img_16.png', alt='Fotografía de dos prensatelas')
               figcaption Nota. Tomada de Amazon.com (s.f.)
       .py-4.py-md-5(titulo="Lazada" :icono="require('@/assets/curso/tema_1/img_17.svg')")  
-        .row.justify-center
+        .row.justify-content-center
           .col-lg-10
             p Costura que se forma cuando el hilo de la aguja interactúa con el hilo de la bobina o de abajo, formando una trenza.
 
@@ -183,8 +183,8 @@
     p.mb-5(data-aos='fade-right') Entre otras se tiene a continuación las siguientes:
 
     .row.fondorojo.p-4
-      
-      .row.justify-content-center.align-items-center.p-2
+      .p-2
+      .row.justify-content-center.align-items-center.p-4
         .col-sm-12.col-lg-3
           div.fondo-blanco.p-3.size
               h3 Planas
@@ -205,7 +205,8 @@
                     | Dos agujas sencillas.
                   li 
                     i.lista-ul__vineta
-                    | Dos agujas escualizable 
+                    | Dos agujas escualizable
+          .p-1
         .col-sm-12.col-lg-3
           div.fondo-blanco.p-3.size
               h3 Fileteadoras 
@@ -223,6 +224,8 @@
                   li 
                     i.lista-ul__vineta
                     | Emparejadora. 
+
+          .p-1
         .col-sm-12.col-lg-3
           div.fondo-blanco.p-3.size
               h3 Collarín
@@ -240,6 +243,7 @@
                   li 
                     i.lista-ul__vineta
                     | Dobladilladora corte izquierdo. 
+          .p-1
         .col-sm-12.col-lg-3
           div.fondo-blanco.p-3.size
               h3 Especiales
@@ -281,15 +285,16 @@
                   li 
                     i.lista-ul__vineta
                     | Termofijadora.
+          .p-1
         .py-4
-        .titulo-sexto.color-acento-contenido
+        .titulo-sexto.color-acento-contenido(alt='La imagen presenta una tabla que clasifica diferentes tipos de máquinas utilizadas en procesos industriales o de confección en cuatro categorías: Planas, Fileteadoras, Collarín y Especiales. En la categoría de Planas se incluyen máquinas como la plana posicionadora, plana zigzag y dos agujas ecualizarle. Las Fileteadoras abarcan máquinas como la fileteadora zurcidora y la fileteadora de 3, 4 y 5 hilos. La categoría de Collarín incluye máquinas como la cama plana o sesgadoras y la dobladilladora automática de mangas. Finalmente, en las Especiales se encuentran la botonadora, presilladora, ribeteadora, cerradora de codo, multiguías, ojaladora de lágrima, entre otras.')
           h5 Tabla 1.
           span Grupos de máquinas 
     .row.p-4       
       h4(data-aos='fade-left') Tipos de máquinas
       p(data-aos='fade-right') Para la confección de prendas se utiliza una serie de máquinas que a continuación se describen.
       .row.mb-5
-        .col-lg-12.mb-5.mb-md-0
+        .col-lg-12.col-12.mb-5.mb-md-0
           LineaTiempoD.color-primario
             .row(numero="1" titulo="Máquina plana") 
               .col-lg-12
@@ -297,7 +302,7 @@
                   .row.justify-content-center
                     .col-lg-10
                       figure
-                        img.img-a(src='@/assets/curso/tema_1/img_19.png', alt='La imagen presenta una tabla que clasifica diferentes tipos de máquinas utilizadas en procesos industriales o de confección en cuatro categorías: Planas, Fileteadoras, Collarín y Especiales. En la categoría de Planas se incluyen máquinas como la plana posicionadora, plana zigzag y dos agujas ecualizarle. Las Fileteadoras abarcan máquinas como la fileteadora zurcidora y la fileteadora de 3, 4 y 5 hilos. La categoría de Collarín incluye máquinas como la cama plana o sesgadoras y la dobladilladora automática de mangas. Finalmente, en las Especiales se encuentran la botonadora, presilladora, ribeteadora, cerradora de codo, multiguías, ojaladora de lágrima, entre otras.')
+                        img.img-a(src='@/assets/curso/tema_1/img_19.png', alt='')
 
                   .row.justify-content-center
                     .col-lg-10
@@ -336,52 +341,97 @@
                         .col-lg-6
                           .jumbo_1.p-4.bg-white
                             ol.lista-ol--color
+                              li
+                                .row
+                                  .col-lg-1 
+                                    p.text-bold.bg_num 1.
+                                  .col-lg-11 
+                                    p.cero Mecanismo del movimiento de la aguja y del tirahilos.
+                              li
+                                .row
+                                  .col-lg-1 
+                                    p.cero.text-bold.bg_num 2.
+                                  .col-lg-11 
+                                    p.cero Tirahilos.
+                              li
+                                .row 
+                                  .col-lg-1 
+                                    p.cero.text-bold.bg_num 3.
+                                  .col-lg-11 
+                                    p.cero Bobina superior del hilo.
+                              li
+                                .row 
+                                  .col-lg-1 
+                                    p.cero.text-bold.bg_num 4. 
+                                  .col-lg-11
+                                    p.cero Tensor.
+                              li
+                                .row 
+                                  .col-lg-1 
+                                    p.cero.text-bold.bg_num 5.
+                                  .col-lg-11 
+                                    p.cero Cigüeñal.
+                              li
+                                .row 
+                                  .col-lg-1
+                                    p.cero.text-bold.bg_num 6. 
+                                  .col-lg-11
+                                    p.cero Volante polea.
+                              li
+                                .row 
+                                  .col-lg-1 
+                                    p.cero.text-bold.bg_num 7. 
+                                  .col-lg-11
+                                    p.cero Bielas.
+                              li
+                                .row 
+                                  .col-lg-1
+                                    p.cero.text-bold.bg_num 8. 
+                                  .col-lg-11
+                                    p.cero Correa.
                               li 
-                                span.text-bold.bg_num 1. 
-                                | Mecanismo del movimiento de la aguja y del tirahilos.
-                              li 
-                                span.text-bold.bg_num 2. 
-                                | Tirahilos.
-                              li 
-                                span.text-bold.bg_num 3. 
-                                | Bobina superior del hilo.
-                              li 
-                                span.text-bold.bg_num 4. 
-                                | Tensor.
-                              li 
-                                span.text-bold.bg_num 5. 
-                                | Cigüeñal.
-                              li 
-                                span.text-bold.bg_num 6. 
-                                | Volante polea.
-                              li 
-                                span.text-bold.bg_num 7. 
-                                | Bielas.
-                              li 
-                                span.text-bold.bg_num 8. 
-                                | Correa.
-                              li 
-                                span.text-bold.bg_num 9. 
-                                | Mecanismo para el movimiento vertical del arrastratelas.
-                              li 
-                                span.text-bold.bg_num 10. 
-                                | Mecanismo para el movimiento horizontal del arrastratelas.
-                              li 
-                                span.text-bold.bg_num 11. 
-                                | Aguja.
-                              li 
-                                span.text-bold.bg_num 12. 
-                                | Arrastratelas.
-                              li 
-                                span.text-bold.bg_num 13. 
-                                | Lanzadera y bobina inferior.
-                              li 
-                                span.text-bold.bg_num 14. 
-                                | Prensatelas.
-                              li 
-                                span.text-bold.bg_num 15. 
-                                | Palanca del prensatelas.
-        
+                                .row 
+                                  .col-lg-1
+                                    p.cero.text-bold.bg_num 9.
+                                  .col-lg-11
+                                    p.cero Mecanismo para el movimiento vertical del arrastratelas.
+                              li
+                                .row 
+                                  .col-lg-1 
+                                    p.cero.text-bold.bg_num 10. 
+                                  .col-lg-11
+                                    p.cero Mecanismo para el movimiento horizontal del arrastratelas.
+                              li
+                                .row 
+                                  .col-lg-1
+                                    p.cero.text-bold.bg_num 11. 
+                                  .col-lg-11
+                                    p.cero Aguja.
+                              li
+                                .row 
+                                  .col-lg-1 
+                                    p.cero.text-bold.bg_num 12.
+                                  .col-lg-11 
+                                    p.cero Arrastratelas.
+                              li
+                                .row 
+                                  .col-lg-1 
+                                    p.cero.text-bold.bg_num 13.
+                                  .col-lg-11 
+                                    p.cero Lanzadera y bobina inferior.
+                              li
+                                .row 
+                                  .col-lg-1 
+                                    p.cero.text-bold.bg_num 14. 
+                                  .col-lg-11
+                                    p.cero Prensatelas.
+                              li
+                                .row 
+                                  .col-lg-1 
+                                    p.cero.text-bold.bg_num 15.
+                                  .col-lg-11 
+                                    p.cero Palanca del prensatelas.
+                  
             .row(numero="2" titulo="Máquina fileteadora")
               .col-lg-12
                 SlyderA
@@ -563,7 +613,7 @@
                     .col-lg-10
                       p.mb-0  
                         strong Función
-                      p.py-2 Realiza la puntada #[em overclock], la cual se utiliza para sobre orillados o adornos y puede considerarse una costura. El término en inglés es “Cover Stitch”, que significa recubridora. Su uso más frecuente se da en prendas fabricadas con tejido de punto, como blusas, camisetas y pantalonetas.
+                      p.py-2 Realiza la puntada #[em overclock], la cual se utiliza para sobre orillados o adornos y puede considerarse una costura. El término en inglés es “#[em Cover Stitch]”, que significa recubridora. Su uso más frecuente se da en prendas fabricadas con tejido de punto, como blusas, camisetas y pantalonetas.
                       h5.text-center Tipo de puntada que realiza
                       figure
                         img.img-a(src='@/assets/curso/tema_1/img_33.png', alt='Lanzada')
@@ -682,7 +732,7 @@
           span Ejemplo de ficha técnica
         figure
           img(src='@/assets/curso/tema_1/img_38.png', alt='La ficha técnica de la máquina plana Singer 591 D300 de "Confecciones Badalam LTDA" indica que es adecuada para coser prendas livianas y medias, ideal para líneas de producción debido a su alta velocidad y eficiencia. Pesa 29 kg, mide 49 cm de alto, 29.5 cm de ancho y 59.3 cm de largo, con una potencia de 250 W, voltaje de 110/220 V y velocidad de 3500 RPM. El mantenimiento debe realizarse cada 3 meses y se recomienda usar equipo de protección y mantener el área limpia. El fabricante es Singer, con contacto en info@singer.com.co.')
-          figcaption Nota. Tomada de Confecciones Badaam Ltda. (2020)
+          figcaption Nota. Tomada de Confecciones Badaam Ltda. (2020).
 
     h3(data-aos='fade-left') Fichas técnicas de seguimiento y mantenimiento de las máquinas
     p(data-aos='fade-right') No se debe confundir este documento con la ficha técnica que trae la máquina cuando se adquiere, este documento contiene la información sobre las intervenciones que ha tenido la máquina, las fechas en que se han reparado o cambiado repuestos, así como los proveedores de servicios o productos que ha necesitado. La información contenida en este documento permite tomar las mejores decisiones cuando de mantenimiento del equipo de máquinas y herramientas se trata.

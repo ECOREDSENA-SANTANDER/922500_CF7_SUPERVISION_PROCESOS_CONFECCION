@@ -194,7 +194,6 @@ export default {
   },
   complementario: [
     {
-      tema: '',
       referencia:
         'Escuela Europea de Formación Empresarial, S. A. (2012). Preparación de herramientas, máquinas y equipos para la confección de productos textiles: cortinaje y complementos de decoración. IC Editorial.',
       tipo: 'Libro',
@@ -202,54 +201,46 @@ export default {
         'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/54265',
     },
     {
-      tema: '',
       referencia:
         'Coser fácil y más. (2019). Tipos de agujas para máquinas de coser doméstica.',
       tipo: 'Video',
       link: 'https://youtu.be/kVNt52lzehQ',
     },
     {
-      tema: '',
       referencia:
         'Mecánica confección. (s.f.). Cómo funciona una máquina de coser y forma la pintada I.',
       tipo: 'Video',
       link: 'https://youtu.be/SKTaW5NOjqw',
     },
     {
-      tema: '',
       referencia: 'Lubricantes Raloy. (s.f.). Manual técnico de lubricantes. ',
       tipo: 'PDF',
       descarga: '/downloads/Manual_Tecnico_2013.pdf',
     },
     {
-      tema: '',
       referencia:
         'Dr. Buchelli UNT. (2014). La gestión del mantenimiento en las empresas.',
       tipo: 'Video',
       link: 'https://youtu.be/-5nxVsKSNaI',
     },
     {
-      tema: '',
       referencia:
         'Valbor Soluciones. (2018). Plan de mantenimiento: 5 elementos indispensables.',
       tipo: 'Video',
       link: 'https://youtu.be/av7JwCDox3A',
     },
     {
-      tema: '',
       referencia: 'Top Solución. (s.f.). Plan de mantenimiento.',
       tipo: 'Video',
       link: 'https://youtu.be/ufdL4VmHt4I',
     },
     {
-      tema: '',
       referencia:
         'Gemba Academy Español. (2018). TPM Mantenimiento productivo total.',
       tipo: 'Video',
       link: 'https://youtu.be/QdDPyNolNhk',
     },
     {
-      tema: '',
       referencia:
         'Mecánica de confección. (2018). Puesta a punto de las máquinas de coser.',
       tipo: 'Video',
@@ -441,7 +432,7 @@ export default {
         },
         {
           nombre: 'Leonardo Castellanos Rodriguez',
-          cargo: 'Desarrollador Fullstack',
+          cargo: 'Desarrollador <i>Fullstack</i>',
           centro: 'Regional Santander - Centro Agroturístico',
         },
         {

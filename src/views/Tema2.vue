@@ -140,7 +140,7 @@
     LineaTiempoD.color-primario(data-aos='fade-left')
       .row(numero="1" titulo="Mantenimiento diario") 
         .col-lg-12
-          p Se refiere a actividades orientadas a conservar las máquinas y herramientas de manera apropiada. Al referirse a realizar estas actividades con una frecuencia de 24 horas, aproximadamente, hay que tener en cuenta la carga de trabajo a la que están siendo sometidas, al tipo de tejido que están trabajando y la velocidad de costura a las que trabajan estas máquinas, eso hace que estén siendo sometidas a mayor o menor trabajo. 
+          p Se refiere actividades orientadas a conservar las máquinas y herramientas de manera apropiada. Al realizar estas actividades con una frecuencia de 24 horas, aproximadamente, hay que tener en cuenta la carga de trabajo a la que están siendo sometidas, al tipo de tejido que están trabajando y la velocidad de costura a las que trabajan estas máquinas, eso hace que estén siendo sometidas a mayor o menor trabajo. 
           p Ahora se indican las actividades que se recomienda se realicen diario, de acuerdo con las anteriores consideraciones y, que en la mayoría de casos, las pueden realizar las mismas operarias u operarios.
           .cajon.color-primario.p-4.mb-5
             ul.lista-ul--color

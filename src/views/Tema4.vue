@@ -94,7 +94,7 @@
               .col-lg-11
                 p.izq.c1 Cuál es la frecuencia para realizar actividades de mantenimiento.
 
-        .col-lg-1.d-sm-none.d-lg-block
+        .col-lg-1.d-none.d-md-block
           .verticalLine 
         .col-lg-5(data-aos='fade-left')
           p Se recomienda revisar  el siguiente video sobre el Plan de mantenimiento y los 5 elementos que ayudarán en la adecuada gestión del plan.
@@ -154,12 +154,18 @@
               p.izq La información sobre el estado del equipo debe estar a disposición, lo mismo que las instrucciones del proveedor sobre el sistema de lubricación.
           .hr.mb-3
 
-    h5.mb-5(data-aos='fade-right') Criterios para elaborar el plan de mantenimiento
-    
-    .row.justify-content-center
-      .col-lg-12.d-flex(data-aos='fade-left')
-        figure.mb-5
-          img(src='@/assets/curso/tema_4/img_4.png', alt='Texto que describa la imagen')
+    .row.fondo3.p-4.row.align-items-center.justify-content-center
+      .row.p-4.row.align-items-center.justify-content-center
+        .col-lg-8
+          .row.fondo-blanco2.p-4.row.align-items-center.justify-content-center
+            .col-lg-12
+              h3 Criterios para elaborar el plan de mantenimiento
+              p La ejecución del plan de mantenimiento requiere de personal calificado para esta labor que debe tener el conocimiento, la experiencia y la capacidad de articular los equipos de costura con el tipo de prendas de vestir, por lo que el plan debe considerar quiénes componen el equipo de mantenimiento.
+              p Así mismo, todo el sistema de producción debe interactuar con el área técnica de máquinas de confección para trabajar de manera coordinada las etapas de la realización del mantenimiento, los tiempos, la disponibilidad de recursos, los equipos técnicos de otras áreas. Esta coordinación es indispensable para evitar retrasos en el flujo normal de la producción.
+              p Otro aspecto a tener en cuenta son las normas de seguridad industrial, lo mismo que los elementos de protección se deben tener en cuenta al momento de programar jornadas de mantenimiento. No hay que olvidar que los planes deben estar registrados y evidenciar la trazabilidad que la norma o protocolo de la empresa ha definido para su cumplimiento. 
+        .col-lg-4.p-2
+          img.d-none.d-md-block.imgizq(src='@/assets/curso/tema_4/img_12.png', alt='Texto que describa la imagen')
+    .p-4 
    
     .cajon.cajon-colorgris.p-4.mb-5(data-aos='fade-right')
       p.mb-0 Como cualquier actividad, la planeación del mantenimiento para la planta de confecciones establece que se deben definir cuáles son las actividades a realizar, en un orden lógico. A continuación, se presenta un ejemplo del diagrama de flujo de actividades.
