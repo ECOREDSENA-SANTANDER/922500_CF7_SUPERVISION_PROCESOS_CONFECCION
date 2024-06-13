@@ -205,7 +205,7 @@
                     | Dos agujas sencillas.
                   li 
                     i.lista-ul__vineta
-                    | Dos agujas escualizable
+                    | Dos agujas escualizable.
           .p-1
         .col-sm-12.col-lg-3
           div.fondo-blanco.p-3.size
