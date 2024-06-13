@@ -137,7 +137,7 @@
                   p #[b Anexo. ] 
                     span  Se invita a revisar el material complementario: Manual técnico de lubricantes de Lubricantes Raloy. 
                 .col-sm-auto
-                  a.boton.color-acento-botones.text-white(href="/downloads/Manual_Tecnico_Lubricantes.pdf" target="_blank")
+                  a.boton.color-acento-botones.text-white(href="http://www.raloy.com.mx/descargas/files/Manual_Tecnico_2013.pdf" target="_blank")
                     span.text-white Descargar
                     i.fas.fa-download
     

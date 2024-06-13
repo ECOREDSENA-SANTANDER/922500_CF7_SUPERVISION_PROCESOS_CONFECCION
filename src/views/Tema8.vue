@@ -17,7 +17,7 @@
         
       .col-lg-5(data-aos='fade-left')
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-          h5 Figura 11.
+          h5 Figura 14.
           span Limpieza de la máquina especificando la lanzadera y la zona de arrastre.
         figure.mb-5
           img(src='@/assets/curso/tema_8/img_1.png', alt='La fotografía presenta una maquina de coser donde se resaltan la zona de la lanzadera y la zona del arrastre.')

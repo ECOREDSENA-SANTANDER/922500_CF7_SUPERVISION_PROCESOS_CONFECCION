@@ -728,7 +728,7 @@
     .row.justify-content-center.mb-5(data-aos='fade-left')
       .col-lg-8
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-          h5 Tabla 2.
+          h5 Figura 8.
           span Ejemplo de ficha técnica
         figure
           img(src='@/assets/curso/tema_1/img_38.png', alt='La ficha técnica de la máquina plana Singer 591 D300 de "Confecciones Badalam LTDA" indica que es adecuada para coser prendas livianas y medias, ideal para líneas de producción debido a su alta velocidad y eficiencia. Pesa 29 kg, mide 49 cm de alto, 29.5 cm de ancho y 59.3 cm de largo, con una potencia de 250 W, voltaje de 110/220 V y velocidad de 3500 RPM. El mantenimiento debe realizarse cada 3 meses y se recomienda usar equipo de protección y mantener el área limpia. El fabricante es Singer, con contacto en info@singer.com.co.')
@@ -744,7 +744,7 @@
     .row.justify-content-center(data-aos='fade-left')
       .col-lg-11
         .titulo-sexto.color-acento-contenido(data-aos='fade-right',alt ='La imagen muestra una ficha de seguimiento y mantenimiento de la "Empresa de Confecciones El Ensamble". La ficha incluye campos para registrar información sobre la máquina, como la fecha, marca, referencia, serie, sección, proveedor, catálogo, número, herramientas, número de motor y color, así como observaciones. También cuenta con una tabla para anotar la fecha, la situación actual del diagnóstico, la intervención, el proveedor, la situación final y observaciones. Al final, hay campos para la autorización, la ejecución, la revisión y observaciones adicionales.' )
-          h5 Tabla 3.
+          h5 Tabla 2.
           span Ficha de seguimiento y mantenimiento
         .tabla-a.color-acento-contenido.mb-5 
           table
@@ -862,8 +862,8 @@
     .py-4
     .row.justify-content-center(data-aos='fade-left')
       .col-lg-11
-        .titulo-sexto.color-acento-contenido(data-aos='fade-right', alt ='La imagen muestra la "Tabla 4. Tecnologías Implementadas en las máquinas", que compara actividades en máquinas convencionales y electrónicas o posicionadoras. Para rematar la costura, en las máquinas convencionales se usa un elemento al lado derecho llamado rematador, mientras que en las electrónicas se hace desde el pedal, ahorrando tiempo. Para cortar el hilo, en las convencionales se realiza manualmente con un punzón o tijeras, mientras que en las electrónicas se activa un mecanismo desde el pedal que corta el hilo automáticamente. Para levantar el pie prensatelas, en las convencionales se usa una rodilla palanca, y en las electrónicas se hace desde el pedal, ahorrando tiempo y reduciendo la fatiga del operador.')
-          h5 Tabla 4.
+        .titulo-sexto.color-acento-contenido(data-aos='fade-right', alt ='La imagen muestra la "Tabla 3. Tecnologías Implementadas en las máquinas", que compara actividades en máquinas convencionales y electrónicas o posicionadoras. Para rematar la costura, en las máquinas convencionales se usa un elemento al lado derecho llamado rematador, mientras que en las electrónicas se hace desde el pedal, ahorrando tiempo. Para cortar el hilo, en las convencionales se realiza manualmente con un punzón o tijeras, mientras que en las electrónicas se activa un mecanismo desde el pedal que corta el hilo automáticamente. Para levantar el pie prensatelas, en las convencionales se usa una rodilla palanca, y en las electrónicas se hace desde el pedal, ahorrando tiempo y reduciendo la fatiga del operador.')
+          h5 Tabla 3.
           span Tecnologías implementadas en las máquinas 
         .tabla-a.mb-5
           table
@@ -915,14 +915,14 @@
             img(src='@/assets/curso/tema_1/img_41.png' alt='AvatarTop')
             .tarjeta.fondo-slyderC
               .p-4.text-center
-                h4.py-2 Aceiteras con aceite de máquinas
-                p.mb-0 #[strong Aceiteras con aceite de máquinas:] elemento indispensable para proveer el aceite a los equipos que lo requieran.
+                h4.py-2 Aceitera
+                p.mb-0 #[strong Aceitera con aceite de máquinas:] elemento indispensable para proveer el aceite a los equipos que lo requieran.
           
           .tarjeta-avatar
             img(src='@/assets/curso/tema_1/img_42.png' alt='AvatarTop')
             .tarjeta.fondo-slyderC
               .p-4.text-center
-                h4.py-2 Pinzas, alicates
+                h4.py-2 Pinza
                 p.mb-0 #[strong Pinzas, alicates:] su función es sujetar o doblar piezas, la pinza tiene la punta más pequeña, lo cual le permite acceder a sitios más estrechos. También tiene la posibilidad de cortar alambres o elementos similares.
           
           .tarjeta-avatar
@@ -937,14 +937,14 @@
             .tarjeta.fondo-slyderC
               .p-4.text-center
                 h4.py-2 Llave inglesa ajustable
-                p.mb-0 #[strong Llave inglesa ajustable:]  también conocida como llave de expansión, es utilizada para apretar y aflojar tuercas y tornillos y su característica es que es ajustable, y sirve para intervenir diferentes diámetros y medidas de los tornillos.
+                p.mb-0 #[strong Llave inglesa:]  también conocida como llave de expansión, es utilizada para apretar y aflojar tuercas y tornillos y su característica es que es ajustable, y sirve para intervenir diferentes diámetros y medidas de los tornillos.
 
 
           .tarjeta-avatar
             img(src='@/assets/curso/tema_1/img_45.png' alt='AvatarTop')
             .tarjeta.fondo-slyderC
               .p-4.text-center
-                h4.py-2 Compresor de aire con pistola
+                h4.py-2 Compresor
                 p.mb-0 #[strong Compresor de aire con pistola:] máquina cuya función es tomar un fluido y darle potencia en su salida, estos fluidos pueden ser aire, gases y hasta pinturas. Se complementa colocando una pistola en su salida, la cual controla la cantidad y el sitio a donde saldrá el fluido. También, en lugar de pistola se les adapta a sistemas de operación de algunas máquinas y equipos de confección.
     p(data-aos='fade-right') Habitualmente cuando se adquiere la máquina, ella trae sus propias herramientas para el mantenimiento e intervenciones necesarias, por lo que se debe procurar conservarlas y ubicarlas en la gaveta de la máquina.
 

@@ -194,53 +194,62 @@ export default {
   },
   complementario: [
     {
+      tema: 'Mantenimiento',
       referencia:
         'Escuela Europea de Formación Empresarial, S. A. (2012). Preparación de herramientas, máquinas y equipos para la confección de productos textiles: cortinaje y complementos de decoración. IC Editorial.',
       tipo: 'Libro',
       link:
-        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/54265',
+        'https://www.iceditorial.com/cortinaje-y-complementos-de-decoracion-tcpf0309/8438-preparacion-de-herramientas-maquinas-y-equipos-para-la-confeccion-de-productos-textiles-uf1037-2-ed-9788491984467.html ',
     },
     {
+      tema: 'Agujas',
       referencia:
         'Coser fácil y más. (2019). Tipos de agujas para máquinas de coser doméstica.',
       tipo: 'Video',
       link: 'https://youtu.be/kVNt52lzehQ',
     },
     {
+      tema: 'Lazada',
       referencia:
         'Mecánica confección. (s.f.). Cómo funciona una máquina de coser y forma la pintada I.',
       tipo: 'Video',
       link: 'https://youtu.be/SKTaW5NOjqw',
     },
     {
+      tema: 'Lubricantes',
       referencia: 'Lubricantes Raloy. (s.f.). Manual técnico de lubricantes. ',
       tipo: 'PDF',
       descarga: '/downloads/Manual_Tecnico_2013.pdf',
     },
     {
+      tema: 'Gestión del mantenimiento',
       referencia:
         'Dr. Buchelli UNT. (2014). La gestión del mantenimiento en las empresas.',
       tipo: 'Video',
       link: 'https://youtu.be/-5nxVsKSNaI',
     },
     {
+      tema: 'plan mantenimiento',
       referencia:
         'Valbor Soluciones. (2018). Plan de mantenimiento: 5 elementos indispensables.',
       tipo: 'Video',
       link: 'https://youtu.be/av7JwCDox3A',
     },
     {
+      tema: 'Plan mantenimiento',
       referencia: 'Top Solución. (s.f.). Plan de mantenimiento.',
       tipo: 'Video',
       link: 'https://youtu.be/ufdL4VmHt4I',
     },
     {
+      tema: 'TPM',
       referencia:
         'Gemba Academy Español. (2018). TPM Mantenimiento productivo total.',
       tipo: 'Video',
       link: 'https://youtu.be/QdDPyNolNhk',
     },
     {
+      tema: 'Puesta a punto de la máquina',
       referencia:
         'Mecánica de confección. (2018). Puesta a punto de las máquinas de coser.',
       tipo: 'Video',
@@ -334,7 +343,7 @@ export default {
       referencia:
         'Cabanillas, R. (2018). Mantenimiento de las máquinas de coser industrial de clase 500. [Tesis de grado]. Universidad Nacional de Educación Enrique Guzmán y Valle.',
       link:
-        'https://repositorio.une.edu.pe/bitstream/handle/UNE/4037/MONOGRAF%C3%8DA%20-%20CABANILLAS%20POMIANO.pdf?sequence=1&isAllowed=y',
+        'https://alicia.concytec.gob.pe/vufind/Record/UNEI_c9f3c0d5649a7644872bc7ad05ba56ec',
     },
 
     {

@@ -75,7 +75,7 @@
     .row.justify-content-center(data-aos='fade-right')
       .col-lg-8
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-          h5 Figura 10.
+          h5 Figura 13.
           span Guías
         .row.justify-content-center
           .col-lg-3

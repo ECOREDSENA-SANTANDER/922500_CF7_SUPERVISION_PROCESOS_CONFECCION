@@ -179,7 +179,7 @@
     .row.align-items-center.justify-content-center.mb-5(data-aos='fade-left')
       .col-lg-4
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-          h5 Figura 8.
+          h5 Figura 11.
           span | Diagrama de plan de mantenimiento  
 
     h4(data-aos='fade-left') Responsabilidades del plan de mantenimiento
@@ -230,7 +230,7 @@
                 p Algunas actividades de orden y aseo en el puesto de trabajo, mantener en buen estado las herramientas que se le asignaron, comunicar de manera asertiva cualquier anormalidad que detecten, utilizar de manera correcta y en el tiempo indicado los lubricantes.
             .py-1
             .hr.mb-5
-      p.mb-5(data-aos='fade-right') Se invita a consultar el video Elaboración de un programa de mantenimiento, el cual le orientará sobre la forma de realizar un programa preventivo de mantenimiento.
+   
         
 
         .row.justify-content-around.align-items-center 

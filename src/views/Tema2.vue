@@ -194,8 +194,8 @@
         .row.justify-content-center
           .col-lg-11
             .titulo-sexto.color-acento-contenido
-              h5 Tabla 4.
-              span Ejemplo ficha técnica de mantemiento preventivo
+              h5 Figura 9.
+              span Ejemplo ficha técnica de mantenimiento preventivo
             figure
               img(src='@/assets/curso/tema_2/img_8.png', alt='La tabla presenta una ficha técnica de mantenimiento preventivo, incluye la marca, el modelo, la serie, la operación, el operario y el año. Adicionalmente, incluye los meses del año y las siguientes actividades: Limpieza, lubricación, mantenimiento general, cambio de piezas y otros.')
               figcaption Nota. Tomada de Cabanillas (2018)
@@ -207,8 +207,8 @@
         .row.justify-content-center
           .col-lg-12
             .titulo-sexto.color-acento-contenido
-              h5 Tabla 5.
-              span Ejemplo ficha técnica de mantemiento correctivo
+              h5 Figura 10.
+              span Ejemplo ficha técnica de mantenimiento correctivo
             figure
               img(src='@/assets/curso/tema_2/img_9.png', alt='La tabla presenta una ficha técnica de mantenimiento correctivo, presenta los siguientes items para diligenciar: operario, descripción de la máquina, máquina y descripción de la falla.')
               figcaption Nota. Tomada de Cabanillas (2018)
@@ -242,7 +242,7 @@
                         p #[b Enlace web. ] 
                           span Durán, P., D. (2013). Preparación de máquinas de corte, ensamblado y acabado. IC Editorial.
                       .col-sm-auto
-                        a.boton.color-acento-botones.text-white(href="https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/43646" target="_blank")
+                        a.boton.color-acento-botones.text-white(href="https://www.perlego.com/es/book/2170292/preparacin-de-mquinas-de-corte-ensamblado-y-acabado-tcpf0209-pdf " target="_blank")
                           span.text-white Ir al sitio
                           i.fas.fa-link
             
@@ -257,7 +257,7 @@
     .row.justify-content-center(data-aos='fade-left')
       .col-lg-10
         .titulo-sexto.color-acento-contenido(data-aos='fade-right',alt ='La imagen muestra la "Tabla 6. Formato para reglamentar actividades de mantenimiento", que detalla el mantenimiento programado para una "Fileteadora con puntada de seguridad" con la referencia 1278 N.º 123456. Las actividades de mantenimiento incluyen: aseo de planchuela, dientes y portaagujas (semanal, personal operativo), lubricación (quincenal, personal operativo), limpieza general (mensual, personal operativo), mantenimiento correctivo (cada que sea necesario, mecánico) e instalación de piezas de repuesto (cada que sea necesario, mecánico). La tabla organiza las tareas por frecuencia y responsable, facilitando el seguimiento y cumplimiento del mantenimiento.')
-          h5 Tabla 6.
+          h5 Tabla 4.
           span Formato para reglamentar actividades de mantenimiento
         .tabla-a.color-acento-contenido.mb-5 
           table

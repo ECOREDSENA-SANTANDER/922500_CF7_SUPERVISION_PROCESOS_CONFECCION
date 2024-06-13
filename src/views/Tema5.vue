@@ -56,7 +56,7 @@
     .row.justify-content-center(data-aos='fade-left')
       .col-lg-12
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-          h5 Figura 9.
+          h5 Figura 12.
           span Los ocho pilares TPM
         figure.mb-5
           img(src='@/assets/curso/tema_5/img_3.svg', alt=': el diagrama presenta los ocho pilares TPM: mejoras enfocadas, mantenimiento autónomo, mantenimiento planificado, mantenimiento de calidad, prevención del mantenimiento, mantenimiento áreas soporte, polivalencia y desarrollo de habilidades, seguridad y entorno. Adicionalmente se menciona 5S-organización, orden y limpieza en el puesto de trabajo.')
