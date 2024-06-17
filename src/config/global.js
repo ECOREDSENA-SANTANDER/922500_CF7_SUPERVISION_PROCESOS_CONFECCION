@@ -194,14 +194,6 @@ export default {
   },
   complementario: [
     {
-      tema: 'Mantenimiento',
-      referencia:
-        'Escuela Europea de Formación Empresarial, S. A. (2012). Preparación de herramientas, máquinas y equipos para la confección de productos textiles: cortinaje y complementos de decoración. IC Editorial.',
-      tipo: 'Libro',
-      link:
-        'https://www.iceditorial.com/cortinaje-y-complementos-de-decoracion-tcpf0309/8438-preparacion-de-herramientas-maquinas-y-equipos-para-la-confeccion-de-productos-textiles-uf1037-2-ed-9788491984467.html ',
-    },
-    {
       tema: 'Agujas',
       referencia:
         'Coser fácil y más. (2019). Tipos de agujas para máquinas de coser doméstica.',
