@@ -72,7 +72,7 @@
                   .row.justify-content-between.align-items-center
                     .col.mb-3.mb-sm-0
                       p Se invita a profundizar a través del siguiente video sobre la metodología #[em TPM] para la realización de un mantenimiento productivo total:
-                      p.text-small #[b Enlace web. ] 
+                      p.text-small #[b Enlace #[em web.]] 
                         span Gemba #[em Academy] Español. (2018). #[em TPM] Mantenimiento productivo total.  
                     .col-sm-auto
                       a.boton.color-acento-botones.text-white(href="https://www.youtube.com/watch?v=QdDPyNolNhk&ab_channel=GembaAcademyEspa%C3%B1ol" target="_blank")

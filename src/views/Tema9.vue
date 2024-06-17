@@ -11,7 +11,7 @@
     figure.mb-5(data-aos='fade-left')
       img(src='@/assets/curso/tema_9/img_1.png', alt='Texto que describa la imagen')
 
-    p(data-aos='fade-right') La eficiencia de una planta de producción de confección se basa en el número de unidades manufacturadas relacionado con la cantidad de recursos utilizados. Pero para poder lograr lo anterior, se requiere de una buena programación de ellos, es decir, la operación o actividad que es, a la hora que es, en la máquina indicada y a la persona correcta, de esa manera, y con esa coordinación adecuada de recursos, se logran producir las unidades planeadas.
+    p(data-aos='fade-right') La eficiencia de una planta de producción de confección se basa en el número de unidades manufacturadas relacionadas con la cantidad de recursos utilizados. Pero para poder lograr lo anterior, se requiere de una buena programación de ellos, es decir, la operación o actividad que es, a la hora que es, en la máquina indicada y a la persona correcta, de esa manera, y con esa coordinación adecuada de recursos, se logran producir las unidades planeadas.
 
     p.mb-5(data-aos='fade-right') Todo lo anterior se puede lograr, pero si cuando el trabajo llegue con esa sincronización ocurre que la máquina no funciona, se podría malograr la programación anterior, entonces, aquí se nota la importancia del capítulo de este módulo y que complementa el plan de producción, que la máquina y el puesto de trabajo estén organizados de acuerdo con las especificaciones técnicas requeridas, tanto de la prenda como de la máquina.
     .cajon.cajon-color-rosa.p-4.mb-5(data-aos='fade-left')
@@ -85,7 +85,7 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   p Para concluir este tema, se invita a explorar el siguiente video de la puesta a punto de una máquina de coser, en este caso de la marca #[em Paff].
-                  p.text-small #[b Enlace web. ] 
+                  p.text-small #[b Enlace #[em web.]] 
                     span Mecánica de confección. (2018). Puesta a punto de las máquinas de coser. 
                 .col-sm-auto
                   a.boton.color-acento-botones.text-white(href="https://www.youtube.com/watch?v=YNf0salcrlc&ab_channel=MecanicaConfeccion" target="_blank")

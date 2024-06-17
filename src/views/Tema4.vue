@@ -31,7 +31,7 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   p Como elemento complementario al tema, se sugiere revisar el video La gestión de mantenimiento de las empresas
-                  p #[b Enlace web. ] 
+                  p #[b Enlace #[em web.]] 
                     span Dr. Buchelli UNT. (2014). La gestión de mantenimiento de las empresas. 
                 .col-sm-auto
                   a.boton.color-acento-botones.text-white(href="https://www.youtube.com/watch?v=-5nxVsKSNaI&ab_channel=Dr.BuchelliUNT" target="_blank")
@@ -108,7 +108,7 @@
                   .col
                     .row.justify-content-between.align-items-center
                       .col.mb-3.mb-sm-0
-                        p #[b Enlace web. ] 
+                        p #[b Enlace #[em web.] ] 
                           span Valbor Soluciones. (2018). Plan de mantenimiento: 5 elementos 
                       .col-sm-auto
                         a.boton.color-acento-botones.text-white(href="https://www.youtube.com/watch?v=av7JwCDox3A&ab_channel=ValborSoluciones" target="_blank")
@@ -170,22 +170,22 @@
     .cajon.cajon-colorgris.p-4.mb-5(data-aos='fade-right')
       p.mb-0 Como cualquier actividad, la planeación del mantenimiento para la planta de confecciones establece que se deben definir cuáles son las actividades a realizar, en un orden lógico. A continuación, se presenta un ejemplo del diagrama de flujo de actividades.
 
-
+    .row.align-items-center.justify-content-center.mb-5(data-aos='fade-left')
+      .col-lg-4
+        .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+          h5 Figura 11.
+          span | Diagrama de plan de mantenimiento 
     .row.justify-content-center.mb-5(data-aos='fade-left')
       .col-lg-12 
         figure
           img(src='@/assets/curso/tema_4/img_5.svg', alt='La imagen muestra un diagrama de un plan de mantenimiento, comenzando con un círculo rojo etiquetado como "INICIO". El diagrama sigue un flujo hacia la derecha, con un cuadro central superior que dice "Tipo de proceso". Desde allí, se ramifican varias actividades de mantenimiento en cuadros turquesa, como "Consultar y utilizar la información", "Diagnosticar el estado de los equipos", "Analizar el desgaste de los elementos mecánicos", entre otros. Estas actividades están alineadas en dos columnas, y conectan finalmente con dos cuadros rosados al final del diagrama, "Registrar y tabular información" y "Verificar resultados", marcando el "FIN" del proceso. Además, hay una imagen de una mujer con gafas y una sonrisa, sosteniendo un bolígrafo, situada en la parte inferior izquierda del diagrama.')
     
-    .row.align-items-center.justify-content-center.mb-5(data-aos='fade-left')
-      .col-lg-4
-        .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-          h5 Figura 11.
-          span | Diagrama de plan de mantenimiento  
+     
 
     h4(data-aos='fade-left') Responsabilidades del plan de mantenimiento
     p.mb-5(data-aos='fade-right') La gerencia o administración establece las políticas y normas de funcionamiento de la organización, lo cual abarca la elaboración de los planes de mantenimiento. Dentro de las actividades de este plan, se encuentran aquellas de carácter administrativo, como la asignación de recursos, así como otras de índole más técnica y de ejecución, que son responsabilidad del supervisor o la persona encargada de la planta de producción.
 
-    h5.text-center.mb-5(data-aos='fade-right') A continuación se especifica el tipo de responsabilidades según el cargo:
+    h5.text-center.mb-5(data-aos='fade-right') A continuación, se especifica el tipo de responsabilidades según el cargo:
 
     .row.justify-content-center.mb-5
       .col-lg-12
@@ -243,7 +243,7 @@
                   .row.justify-content-between.align-items-center
                     .col.mb-3.mb-sm-0
                       p Se invita a consultar el video Elaboración de un programa de mantenimiento, el cual le orientará sobre la forma de realizar un programa preventivo de mantenimiento. 
-                      p #[b Enlace web. ] 
+                      p #[b Enlace #[em web.] ] 
                         span Top Solución. (s.f.). Plan de mantenimiento. 
                     .col-sm-auto
                       a.boton.color-acento-botones.text-white(href="https://www.youtube.com/watch?v=ufdL4VmHt4I&ab_channel=TopSoluci%C3%B3n" target="_blank")

@@ -40,7 +40,7 @@
           .tarjeta.color-fondo
             .p-4(data-aos='fade-left')
               h2 Lubricación automática
-              P Está implementada a través del bombeo de grasa o aceite desde el reservorio central a las diferentes zonas de lubricación de forma automática, está basada en los requerimientos técnicos especificadas por los fabricantes de maquinarias.
+              P Está implementada a través del bombeo de grasa o aceite desde el reservorio central a las diferentes zonas de lubricación de forma automática, está basada en los requerimientos técnicos especificados por los fabricantes de maquinarias.
               P Es aplicada a máquinas industriales caracterizadas por un trabajo continuo a gran velocidad, estas máquinas están equipadas de una bomba propulsora de aceite que mueve el lubricante por gravedad.
         
         .tarjeta-avatar-b.mb-5
@@ -48,7 +48,7 @@
           .tarjeta.color-fondo
             .p-4(data-aos='fade-left')
               h2 Lubricación por mecha
-              p.mb-0 Sistema implementado en el principio de la capilaridad de un material poroso que se genera como mecha el cual absorbe el lubricante para generar el contacto con las piezas en movimiento.
+              p.mb-0 Sistema implementado en el principio de la capilaridad de un material poroso que se genera como mecha, el cual absorbe el lubricante para generar el contacto con las piezas en movimiento.
 
         .tarjeta-avatar-b.mb-5
           img(src='@/assets/curso/tema_3/img_5.svg' alt='AvatarTop' data-aos='fade-right')
@@ -71,7 +71,7 @@
           .tarjeta.tarjeta--bg1.tar-av2
             .p-3
               h2.left Lubricantes por aceite
-              p.left Son altamente utilizados en la confección, pues ceden bien al calor y crean una fina capa generando una total cobertura y capacidad de fluencia. 
+              p.left Son altamente utilizados en la confección, pues ceden bien al calor y crean una fina capa, generando una total cobertura y capacidad de fluencia. 
               p.left Son utilizados en piezas de alta temperatura o revoluciones de fricción.
      
       .col-lg-6.d-flex(data-aos='fade-left')
@@ -79,7 +79,7 @@
           .tarjeta.color-fondo.tar-av
             .p-3
               h2.left Lubricantes por grasa
-              p.left Conformados por un aceite base ligado por un espesante que garantiza permanencia en el punto de lubricación, posibilitando una protección que sella las piezas de la fricción, el desgate e influencias de humedad o sustancias extrañas.
+              p.left Conformados por un aceite base ligado por un espesante que garantiza permanencia en el punto de lubricación, posibilitando una protección que sella las piezas de la fricción, el desgaste e influencias de humedad o sustancias extrañas.
           img(src='@/assets/curso/tema_3/img_7.svg' alt='AvatarTop')
 
     .row

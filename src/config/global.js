@@ -429,6 +429,11 @@ export default {
           centro:
             'Regional Distrito Capital - Centro para la Industria de la Comunicación Gráfica',
         },
+        {
+          nombre: 'Sandra Paola Moralres Páez',
+          cargo: 'Evaluadora Instruccional',
+          centro: 'Regional Santander - Centro Agroturístico',
+        },
       ],
     },
     {

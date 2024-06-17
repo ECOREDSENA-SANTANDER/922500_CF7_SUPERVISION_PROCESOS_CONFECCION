@@ -59,7 +59,7 @@
 
     TabsB.mb-5(data-aos='fade-left')
       .py-4.py-md-5(titulo="Ajuste" :icono="require('@/assets/curso/tema_1/img_4.svg')")
-        p.mb-5 En la industria de la moda hay gran cantidad de diseños en múltiples tejidos y con gran variedad de costuras. En esa parte las diseñadoras aprovechan todos los avances tecnológicos que en las maquinarias, costuras, guías y aditamentos se han venido implementando. Además, saber combinar textiles, agujas, dientes, pie prensatelas, hilos y demás, es una virtud que se debe tener en cuenta para sacar adelante los proyectos de manera eficiente, a eso se le llama combinación de costura. El ajuste, entonces, se podría definir como los elementos que posee la máquina y que se relacionan de manera directa con los tejidos: aguja, prensatelas, dientes y planchuela. Existen ajustes, livianos, semipesados y pesados que se utilizan de acuerdo con los tejidos que se van a trabajar: telas livianas = ajuste liviano, y así sucesivamente.
+        p.mb-5 En la industria de la moda hay gran cantidad de diseños en múltiples tejidos y con gran variedad de costuras. En esa parte, las diseñadoras aprovechan todos los avances tecnológicos que en las maquinarias, costuras, guías y aditamentos se han venido implementando. Además, saber combinar textiles, agujas, dientes, pie prensatelas, hilos y demás, es una virtud que se debe tener en cuenta para sacar adelante los proyectos de manera eficiente, a eso se le llama combinación de costura. El ajuste, entonces, se podría definir como los elementos que posee la máquina y que se relacionan de manera directa con los tejidos: aguja, prensatelas, dientes y planchuela. Existen ajustes, livianos, semipesados y pesados que se utilizan de acuerdo con los tejidos que se van a trabajar: telas livianas = ajuste liviano, y así sucesivamente.
 
         .row.justify-content-center
           .col-lg-6.mb-5
@@ -121,7 +121,7 @@
                 .col
                   .row.justify-content-between.align-items-center
                     .col.mb-3.mb-sm-0
-                      p #[b Enlace web. ] 
+                      p #[b Enlace #[em web.]] 
                         span  Se invita a consultar el video de manos a la tela: Tipos de agujas para máquinas de coser doméstica.
                     .col-sm-auto
                       a.boton.color-acento-botones.text-white(href="https://www.youtube.com/embed/kVNt52lzehQ" target="_blank")
@@ -132,7 +132,7 @@
       .py-4.py-md-5(titulo="Dientes" :icono="require('@/assets/curso/tema_1/img_13.svg')")  
         .row
           .col-lg-6
-            p El diente, para poder desplazar el material, debe sujetarlo y esta función la realiza con la parte superior que hace contacto con la tela en el momento que comienza a transportarlo, por efecto de la fricción la tela se incrusta entre la separación de los dientes y es así como este desplaza el material o lo que se llama arrastre. Cuando se habla de arrastre se hace referencia a una pieza dentada que se sitúa en la parte inferior de la máquina, concretamente, debajo del pie del prensatelas. Se trata de una pieza de gran importancia, ya que se encarga de estirar la tela para evitar errores en la costura.
+            p El diente, para poder desplazar el material, debe sujetarlo y esta función la realiza con la parte superior que hace contacto con la tela en el momento que comienza a transportarlo, por efecto de la fricción la tela se incrusta entre la separación de los dientes y es así como este desplaza el material o lo que se llama arrastre. Cuando se habla de arrastre, se hace referencia a una pieza dentada que se sitúa en la parte inferior de la máquina, concretamente, debajo del pie del prensatelas. Se trata de una pieza de gran importancia, ya que se encarga de estirar la tela para evitar errores en la costura.
           .col-lg-6
             .titulo-sexto.color-acento-contenido(data-aos='fade-right')
               h5 Figura 6.
@@ -165,7 +165,7 @@
                 .col
                   .row.justify-content-between.align-items-center
                       .col.mb-1.mb-sm-0
-                        p #[b Enlace web. ] 
+                        p #[b Enlace #[em web.]] 
                           span Mecánica de confección: cómo funciona una máquina de coser y forma la puntada.
                       .col-sm-auto
                         a.boton.color-acento-botones.text-white(href="https://www.youtube.com/embed/SKTaW5NOjqw" target="_blank")
@@ -181,7 +181,10 @@
     p(data-aos='fade-right') Las máquinas de confección se identifican y conocen según sus funciones, presentando características muy especiales que las diferencian, como los tipos de agujas que utilizan y el tipo de costura que realizan. Estos equipos se dedican a ensamblar piezas de tejido, utilizando principalmente agujas, hilos y los mecanismos necesarios para coordinar estos elementos.
 
     p.mb-5(data-aos='fade-right') Entre otras se tiene a continuación las siguientes:
-
+    .py-4
+      .titulo-sexto.color-acento-contenido(alt='La imagen presenta una tabla que clasifica diferentes tipos de máquinas utilizadas en procesos industriales o de confección en cuatro categorías: Planas, Fileteadoras, Collarín y Especiales. En la categoría de Planas se incluyen máquinas como la plana posicionadora, plana zigzag y dos agujas ecualizarle. Las Fileteadoras abarcan máquinas como la fileteadora zurcidora y la fileteadora de 3, 4 y 5 hilos. La categoría de Collarín incluye máquinas como la cama plana o sesgadoras y la dobladilladora automática de mangas. Finalmente, en las Especiales se encuentran la botonadora, presilladora, ribeteadora, cerradora de codo, multiguías, ojaladora de lágrima, entre otras.')
+        h5 Tabla 1.
+        span Grupos de máquinas
     .row.fondorojo.p-4
       .p-2
       .row.justify-content-center.align-items-center.p-4
@@ -286,10 +289,7 @@
                     i.lista-ul__vineta
                     | Termofijadora.
           .p-1
-        .py-4
-        .titulo-sexto.color-acento-contenido(alt='La imagen presenta una tabla que clasifica diferentes tipos de máquinas utilizadas en procesos industriales o de confección en cuatro categorías: Planas, Fileteadoras, Collarín y Especiales. En la categoría de Planas se incluyen máquinas como la plana posicionadora, plana zigzag y dos agujas ecualizarle. Las Fileteadoras abarcan máquinas como la fileteadora zurcidora y la fileteadora de 3, 4 y 5 hilos. La categoría de Collarín incluye máquinas como la cama plana o sesgadoras y la dobladilladora automática de mangas. Finalmente, en las Especiales se encuentran la botonadora, presilladora, ribeteadora, cerradora de codo, multiguías, ojaladora de lágrima, entre otras.')
-          h5 Tabla 1.
-          span Grupos de máquinas 
+         
     .row.p-4       
       h4(data-aos='fade-left') Tipos de máquinas
       p(data-aos='fade-right') Para la confección de prendas se utiliza una serie de máquinas que a continuación se describen.
@@ -739,7 +739,7 @@
 
     p(data-aos='fade-right') Debe, por lo menos, traer información completa de la máquina en donde se incluyan sus características, la sección o área a que pertenece, el tipo de mantenimiento que se le realiza, la urgencia de la intervención, la descripción del servicio, las fechas, las personas responsables de solicitar, autorizar y revisar el servicio, entre otros aspectos.
 
-    h4.mb-5(data-aos='fade-right') A continuación, se presenta un documento p ara ejemplificar la ficha de seguimiento y mantenimiento:
+    h4.mb-5(data-aos='fade-right') A continuación, se presenta un documento para ejemplificar la ficha de seguimiento y mantenimiento:
 
     .row.justify-content-center(data-aos='fade-left')
       .col-lg-11
@@ -858,7 +858,7 @@
                 th(colspan=3) Revisón
                 th(colspan=2) Observaciones
     h3(data-aos='fade-left') Tecnologías implementadas en las máquinas
-    p.mb-0(data-aos='fade-right') A lo largo del tiempo, las máquinas herramientas y las metodologías de trabajo han experimentado cambios orientados a aumentar la velocidad (productividad) y mejorar el cumplimiento de especificaciones (calidad). Con la implementación de dispositivos electrónicos, se han simplificado pasos en las órdenes, movimientos y relaciones de velocidades. Hasta el año 2021, la industria de la confección está equipada con equipos automatizados; algunos puestos de trabajo son atendidos por robots, y existen softwares que integran varias operaciones.
+    p.mb-0(data-aos='fade-right') A lo largo del tiempo, las máquinas, las herramientas y las metodologías de trabajo han experimentado cambios orientados a aumentar la velocidad (productividad) y mejorar el cumplimiento de especificaciones (calidad). Con la implementación de dispositivos electrónicos, se han simplificado pasos en las órdenes, movimientos y relaciones de velocidades. Hasta el año 2021, la industria de la confección está equipada con equipos automatizados; algunos puestos de trabajo son atendidos por robots, y existen software que integran varias operaciones.
     .py-4
     .row.justify-content-center(data-aos='fade-left')
       .col-lg-11
