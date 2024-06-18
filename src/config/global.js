@@ -178,12 +178,12 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/CF07_922500_DU.pdf',
+        download: 'downloads/CF07_922500_DU.zip',
       },
       {
         icono: 'fas fa-download',
         titulo: 'Descargar material',
-        download: 'downloads/CF07_922500_DU.zip',
+        download: 'downloads/material.zip',
       },
       {
         icono: 'far fa-registered',
