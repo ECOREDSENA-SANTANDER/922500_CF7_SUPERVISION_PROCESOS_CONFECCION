@@ -339,9 +339,8 @@ export default {
     },
 
     {
-      referencia: 'Coats Group. (s.f.) Todo sobre agujas. Coats.',
-      link:
-        'https://coats.com/en/information-hub/All-About-Needles#Needle_Identification',
+      referencia: 'Basic Needle Parts. (2024, enero 25). COATS.',
+      link: 'https://coats.com/es/info-hub/basic-needle-parts/',
     },
 
     {
