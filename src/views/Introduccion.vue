@@ -11,7 +11,7 @@
 
     .row.justify-content-center.align-items-center.mb-4(data-aos="fade-left")
         .col-lg-12.col-10
-          p Ennnnnnnnnnnnnnn el siguiente video, se presentan diferentes planes de mantenimiento de máquinas y equipos de confección y la importancia de este tipo de procesos para una planta de producción de confecciones. 
+          p En el siguiente video, se presentan diferentes planes de mantenimiento de máquinas y equipos de confección y la importancia de este tipo de procesos para una planta de producción de confecciones. 
       
           figure(data-aos="fade-right").py-2
             .video.mb-1
